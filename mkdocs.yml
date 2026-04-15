@@ -1,0 +1,83 @@
+site_name: EP's Blog
+site_description: 技术与生活的博客
+site_author: epepepelephant
+site_url: https://epepepe.top
+repo_url: https://github.com/epepepelephant/ep_blog
+repo_name: epepepelephant/ep_blog
+copyright: '&copy; 2026 epepepelephant. All rights reserved.'
+
+# 自定义图标
+extra:
+  favicon: assets/images/favicon.ico
+  social:
+    - icon: fontawesome/brands/github
+      link: https://github.com/epepepelephant
+  search:
+    separator: '[\s\-\.]'
+
+theme:
+  name: material
+  custom_dir: docs/overrides
+  language: zh
+  logo: assets/images/favicon.ico
+  icon:
+    logo: material/pencil
+    repo: fontawesome/brands/github
+  palette:
+    - scheme: slate
+      primary: indigo
+      accent: cyan
+      toggle:
+        icon: material/weather-sunny
+        name: Switch to light mode
+  font:
+    text: Noto Sans SC
+    code: JetBrains Mono
+  features:
+    - navigation.instant
+    - navigation.tracking
+    - navigation.tabs
+    - navigation.tabs.sticky
+    - navigation.sections
+    - search.highlight
+    - search.suggest
+
+markdown_extensions:
+  - abbr
+  - admonition
+  - attr_list
+  - def_list
+  - footnotes
+  - tables
+  - toc:
+      permalink: true
+  - codehilite:
+      css_class: highlight
+      linenums: false
+
+plugins:
+  - search:
+      lang: zh
+  - git-revision-date-localized:
+      type: timeago
+      timezone: Asia/Shanghai
+      locale: zh
+
+extra_css:
+  - stylesheets/custom.css
+
+extra_javascript:
+  - javascripts/favicon.js
+
+nav:
+  - Home: index.md
+  - Articles:
+      - articles/index.md
+      - 技术文章:
+          - articles/tech/index.md
+      - 生活随笔:
+          - articles/life/index.md
+  - About: about.md
+
+docs_dir: docs
+site_dir: site
