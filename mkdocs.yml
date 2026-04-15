@@ -71,6 +71,7 @@ extra_javascript:
 
 nav:
   - Home: index.md
+  - 神经网络: 神经网络.md
 
 docs_dir: docs
 site_dir: site
