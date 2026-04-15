@@ -1,0 +1,10 @@
+{% extends "base.html" %}
+
+{% block htmltitle %}
+<title>{{ page.title | striptags }} {{ config.site_name }}</title>
+{% endblock %}
+
+{% block libs %}
+{{ super() }}
+<script src="javascripts/favicon.js"></script>
+{% endblock %}
