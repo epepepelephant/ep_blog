@@ -2,13 +2,13 @@
 
 <div class="profile-card">
 
-<img src="assets/images/avatar.jpg" width="80" height="80" style="border-radius: 50%;" />
+<img src="assets/images/头像.png" width="80" height="80" style="border-radius: 50%;" />
     This is Ep's blog.Nice to meet you.
 </div>
 
 ---
 
-## 给你看奶茶鼠
+## 本人视频
 
 
 

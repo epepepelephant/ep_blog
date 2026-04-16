@@ -8,7 +8,6 @@ copyright: '&copy; 2026 epepepelephant. All rights reserved.'
 
 # 自定义图标
 extra:
-  favicon: assets/images/favicon.ico
   social:
     - icon: fontawesome/brands/github
       link: https://github.com/epepepelephant
@@ -24,18 +23,15 @@ theme:
     logo: material/pencil
     repo: fontawesome/brands/github
   palette:
-    - scheme: slate
+    - scheme: default
       primary: indigo
       accent: cyan
-      toggle:
-        icon: material/weather-sunny
-        name: Switch to light mode
   font:
     text: Noto Sans SC
     code: JetBrains Mono
   features:
-    - navigation.instant
-    - navigation.tracking
+    # - navigation.instant
+    # - navigation.tracking
     - navigation.tabs
     - navigation.tabs.sticky
     - navigation.sections
@@ -54,24 +50,30 @@ markdown_extensions:
   - codehilite:
       css_class: highlight
       linenums: false
+  # Removed pymdownx.arithmatex
 
 plugins:
   - search:
       lang: zh
-  - git-revision-date-localized:
-      type: timeago
-      timezone: Asia/Shanghai
-      locale: zh
 
 extra_css:
   - stylesheets/custom.css
+  - javascripts/katex/katex.min.css
 
 extra_javascript:
   - javascripts/favicon.js
+  - javascripts/katex/katex.min.js
+  - javascripts/katex/auto-render.min.js
+  - javascripts/katex-render.js
 
 nav:
   - Home: index.md
-  - 神经网络: 神经网络.md
+  - AI:
+    - 神经网络: ai/神经网络.md
+    - CNN: ai/CNN.md
+    - RNN: ai/RNN.md
+    - Pytorch: ai/Pytorch.md
+    - 目标检测的发展史: ai/目标检测的发展史.md
 
 docs_dir: docs
 site_dir: site

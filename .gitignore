@@ -1,0 +1,6 @@
+# Git ignore for MkDocs
+site/
+.env
+.DS_Store
+*.pyc
+__pycache__/
