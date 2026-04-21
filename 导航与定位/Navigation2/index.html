@@ -1,0 +1,2762 @@
+
+<!doctype html>
+<html lang="zh" class="no-js">
+  <head>
+    
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width,initial-scale=1">
+      
+        <meta name="description" content="技术与生活的博客">
+      
+      
+        <meta name="author" content="epepepelephant">
+      
+      
+        <link rel="canonical" href="https://epepepe.top/%E5%AF%BC%E8%88%AA%E4%B8%8E%E5%AE%9A%E4%BD%8D/Navigation2/">
+      
+      
+        <link rel="prev" href="../MPC/">
+      
+      
+        <link rel="next" href="../../ai/%E7%A5%9E%E7%BB%8F%E7%BD%91%E7%BB%9C/">
+      
+      
+        
+      
+      
+      <link rel="icon" href="../../assets/images/favicon.png">
+      <meta name="generator" content="mkdocs-1.6.1, mkdocs-material-9.7.6">
+    
+    
+<title>Navigation2 EP's Blog</title>
+
+    
+      <link rel="stylesheet" href="../../assets/stylesheets/main.484c7ddc.min.css">
+      
+        
+        <link rel="stylesheet" href="../../assets/stylesheets/palette.ab4e12ef.min.css">
+      
+      
+
+
+    
+    
+
+      
+    
+<script src="javascripts/favicon.js"></script>
+
+    
+      
+        
+        
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Noto+Sans+SC:300,300i,400,400i,700,700i%7CJetBrains+Mono:400,400i,700,700i&display=fallback">
+        <style>:root{--md-text-font:"Noto Sans SC";--md-code-font:"JetBrains Mono"}</style>
+      
+    
+    
+      <link rel="stylesheet" href="../../stylesheets/custom.css">
+    
+      <link rel="stylesheet" href="../../javascripts/katex/katex.min.css">
+    
+    <script>__md_scope=new URL("../..",location),__md_hash=e=>[...e].reduce(((e,_)=>(e<<5)-e+_.charCodeAt(0)),0),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
+    
+      
+
+    
+    
+  </head>
+  
+  
+    
+    
+      
+    
+    
+    
+    
+    <body dir="ltr" data-md-color-scheme="default" data-md-color-primary="indigo" data-md-color-accent="cyan">
+  
+    
+    <input class="md-toggle" data-md-toggle="drawer" type="checkbox" id="__drawer" autocomplete="off">
+    <input class="md-toggle" data-md-toggle="search" type="checkbox" id="__search" autocomplete="off">
+    <label class="md-overlay" for="__drawer"></label>
+    <div data-md-component="skip">
+      
+        
+        <a href="#1navigation2" class="md-skip">
+          跳转至
+        </a>
+      
+    </div>
+    <div data-md-component="announce">
+      
+    </div>
+    
+    
+      
+
+  
+
+<header class="md-header md-header--shadow md-header--lifted" data-md-component="header">
+  <nav class="md-header__inner md-grid" aria-label="页眉">
+    <a href="../.." title="EP&#39;s Blog" class="md-header__button md-logo" aria-label="EP's Blog" data-md-component="logo">
+      
+  <img src="../../assets/images/favicon.ico" alt="logo">
+
+    </a>
+    <label class="md-header__button md-icon" for="__drawer">
+      
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M3 6h18v2H3zm0 5h18v2H3zm0 5h18v2H3z"/></svg>
+    </label>
+    <div class="md-header__title" data-md-component="header-title">
+      <div class="md-header__ellipsis">
+        <div class="md-header__topic">
+          <span class="md-ellipsis">
+            EP's Blog
+          </span>
+        </div>
+        <div class="md-header__topic" data-md-component="header-topic">
+          <span class="md-ellipsis">
+            
+              Navigation2
+            
+          </span>
+        </div>
+      </div>
+    </div>
+    
+      
+        <form class="md-header__option" data-md-component="palette">
+  
+    
+    
+    
+    <input class="md-option" data-md-color-media="" data-md-color-scheme="default" data-md-color-primary="indigo" data-md-color-accent="cyan"  aria-hidden="true"  type="radio" name="__palette" id="__palette_0">
+    
+  
+</form>
+      
+    
+    
+      <script>var palette=__md_get("__palette");if(palette&&palette.color){if("(prefers-color-scheme)"===palette.color.media){var media=matchMedia("(prefers-color-scheme: light)"),input=document.querySelector(media.matches?"[data-md-color-media='(prefers-color-scheme: light)']":"[data-md-color-media='(prefers-color-scheme: dark)']");palette.color.media=input.getAttribute("data-md-color-media"),palette.color.scheme=input.getAttribute("data-md-color-scheme"),palette.color.primary=input.getAttribute("data-md-color-primary"),palette.color.accent=input.getAttribute("data-md-color-accent")}for(var[key,value]of Object.entries(palette.color))document.body.setAttribute("data-md-color-"+key,value)}</script>
+    
+    
+    
+      
+      
+        <label class="md-header__button md-icon" for="__search">
+          
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.52 6.52 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5"/></svg>
+        </label>
+        <div class="md-search" data-md-component="search" role="dialog">
+  <label class="md-search__overlay" for="__search"></label>
+  <div class="md-search__inner" role="search">
+    <form class="md-search__form" name="search">
+      <input type="text" class="md-search__input" name="query" aria-label="搜索" placeholder="搜索" autocapitalize="off" autocorrect="off" autocomplete="off" spellcheck="false" data-md-component="search-query" required>
+      <label class="md-search__icon md-icon" for="__search">
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.52 6.52 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5"/></svg>
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11z"/></svg>
+      </label>
+      <nav class="md-search__options" aria-label="查找">
+        
+        <button type="reset" class="md-search__icon md-icon" title="清空当前内容" aria-label="清空当前内容" tabindex="-1">
+          
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M19 6.41 17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12z"/></svg>
+        </button>
+      </nav>
+      
+        <div class="md-search__suggest" data-md-component="search-suggest"></div>
+      
+    </form>
+    <div class="md-search__output">
+      <div class="md-search__scrollwrap" tabindex="0" data-md-scrollfix>
+        <div class="md-search-result" data-md-component="search-result">
+          <div class="md-search-result__meta">
+            正在初始化搜索引擎
+          </div>
+          <ol class="md-search-result__list" role="presentation"></ol>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+      
+    
+    
+      <div class="md-header__source">
+        <a href="https://github.com/epepepelephant/ep_blog" title="前往仓库" class="md-source" data-md-component="source">
+  <div class="md-source__icon md-icon">
+    
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><!--! Font Awesome Free 7.1.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2025 Fonticons, Inc.--><path d="M173.9 397.4c0 2-2.3 3.6-5.2 3.6-3.3.3-5.6-1.3-5.6-3.6 0-2 2.3-3.6 5.2-3.6 3-.3 5.6 1.3 5.6 3.6m-31.1-4.5c-.7 2 1.3 4.3 4.3 4.9 2.6 1 5.6 0 6.2-2s-1.3-4.3-4.3-5.2c-2.6-.7-5.5.3-6.2 2.3m44.2-1.7c-2.9.7-4.9 2.6-4.6 4.9.3 2 2.9 3.3 5.9 2.6 2.9-.7 4.9-2.6 4.6-4.6-.3-1.9-3-3.2-5.9-2.9M252.8 8C114.1 8 8 113.3 8 252c0 110.9 69.8 205.8 169.5 239.2 12.8 2.3 17.3-5.6 17.3-12.1 0-6.2-.3-40.4-.3-61.4 0 0-70 15-84.7-29.8 0 0-11.4-29.1-27.8-36.6 0 0-22.9-15.7 1.6-15.4 0 0 24.9 2 38.6 25.8 21.9 38.6 58.6 27.5 72.9 20.9 2.3-16 8.8-27.1 16-33.7-55.9-6.2-112.3-14.3-112.3-110.5 0-27.5 7.6-41.3 23.6-58.9-2.6-6.5-11.1-33.3 2.6-67.9 20.9-6.5 69 27 69 27 20-5.6 41.5-8.5 62.8-8.5s42.8 2.9 62.8 8.5c0 0 48.1-33.6 69-27 13.7 34.7 5.2 61.4 2.6 67.9 16 17.7 25.8 31.5 25.8 58.9 0 96.5-58.9 104.2-114.8 110.5 9.2 7.9 17 22.9 17 46.4 0 33.7-.3 75.4-.3 83.6 0 6.5 4.6 14.4 17.3 12.1C436.2 457.8 504 362.9 504 252 504 113.3 391.5 8 252.8 8M105.2 352.9c-1.3 1-1 3.3.7 5.2 1.6 1.6 3.9 2.3 5.2 1 1.3-1 1-3.3-.7-5.2-1.6-1.6-3.9-2.3-5.2-1m-10.8-8.1c-.7 1.3.3 2.9 2.3 3.9 1.6 1 3.6.7 4.3-.7.7-1.3-.3-2.9-2.3-3.9-2-.6-3.6-.3-4.3.7m32.4 35.6c-1.6 1.3-1 4.3 1.3 6.2 2.3 2.3 5.2 2.6 6.5 1 1.3-1.3.7-4.3-1.3-6.2-2.2-2.3-5.2-2.6-6.5-1m-11.4-14.7c-1.6 1-1.6 3.6 0 5.9s4.3 3.3 5.6 2.3c1.6-1.3 1.6-3.9 0-6.2-1.4-2.3-4-3.3-5.6-2"/></svg>
+  </div>
+  <div class="md-source__repository">
+    epepepelephant/ep_blog
+  </div>
+</a>
+      </div>
+    
+  </nav>
+  
+    
+      
+<nav class="md-tabs" aria-label="标签" data-md-component="tabs">
+  <div class="md-grid">
+    <ul class="md-tabs__list">
+      
+        
+  
+  
+  
+  
+    <li class="md-tabs__item">
+      <a href="../.." class="md-tabs__link">
+        
+  
+  
+    
+  
+  Home
+
+      </a>
+    </li>
+  
+
+      
+        
+  
+  
+  
+    
+  
+  
+    
+    
+      <li class="md-tabs__item md-tabs__item--active">
+        <a href="../%E5%AF%B9SLAM%E5%92%8CTF%E7%9A%84%E7%90%86%E8%A7%A3/" class="md-tabs__link">
+          
+  
+  
+  导航与定位
+
+        </a>
+      </li>
+    
+  
+
+      
+        
+  
+  
+  
+  
+    
+    
+      <li class="md-tabs__item">
+        <a href="../../ai/%E7%A5%9E%E7%BB%8F%E7%BD%91%E7%BB%9C/" class="md-tabs__link">
+          
+  
+  
+  AI
+
+        </a>
+      </li>
+    
+  
+
+      
+    </ul>
+  </div>
+</nav>
+    
+  
+</header>
+    
+    <div class="md-container" data-md-component="container">
+      
+      
+        
+      
+      <main class="md-main" data-md-component="main">
+        <div class="md-main__inner md-grid">
+          
+            
+              
+              <div class="md-sidebar md-sidebar--primary" data-md-component="sidebar" data-md-type="navigation" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+
+  
+
+
+<nav class="md-nav md-nav--primary md-nav--lifted" aria-label="导航栏" data-md-level="0">
+  <label class="md-nav__title" for="__drawer">
+    <a href="../.." title="EP&#39;s Blog" class="md-nav__button md-logo" aria-label="EP's Blog" data-md-component="logo">
+      
+  <img src="../../assets/images/favicon.ico" alt="logo">
+
+    </a>
+    EP's Blog
+  </label>
+  
+    <div class="md-nav__source">
+      <a href="https://github.com/epepepelephant/ep_blog" title="前往仓库" class="md-source" data-md-component="source">
+  <div class="md-source__icon md-icon">
+    
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><!--! Font Awesome Free 7.1.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2025 Fonticons, Inc.--><path d="M173.9 397.4c0 2-2.3 3.6-5.2 3.6-3.3.3-5.6-1.3-5.6-3.6 0-2 2.3-3.6 5.2-3.6 3-.3 5.6 1.3 5.6 3.6m-31.1-4.5c-.7 2 1.3 4.3 4.3 4.9 2.6 1 5.6 0 6.2-2s-1.3-4.3-4.3-5.2c-2.6-.7-5.5.3-6.2 2.3m44.2-1.7c-2.9.7-4.9 2.6-4.6 4.9.3 2 2.9 3.3 5.9 2.6 2.9-.7 4.9-2.6 4.6-4.6-.3-1.9-3-3.2-5.9-2.9M252.8 8C114.1 8 8 113.3 8 252c0 110.9 69.8 205.8 169.5 239.2 12.8 2.3 17.3-5.6 17.3-12.1 0-6.2-.3-40.4-.3-61.4 0 0-70 15-84.7-29.8 0 0-11.4-29.1-27.8-36.6 0 0-22.9-15.7 1.6-15.4 0 0 24.9 2 38.6 25.8 21.9 38.6 58.6 27.5 72.9 20.9 2.3-16 8.8-27.1 16-33.7-55.9-6.2-112.3-14.3-112.3-110.5 0-27.5 7.6-41.3 23.6-58.9-2.6-6.5-11.1-33.3 2.6-67.9 20.9-6.5 69 27 69 27 20-5.6 41.5-8.5 62.8-8.5s42.8 2.9 62.8 8.5c0 0 48.1-33.6 69-27 13.7 34.7 5.2 61.4 2.6 67.9 16 17.7 25.8 31.5 25.8 58.9 0 96.5-58.9 104.2-114.8 110.5 9.2 7.9 17 22.9 17 46.4 0 33.7-.3 75.4-.3 83.6 0 6.5 4.6 14.4 17.3 12.1C436.2 457.8 504 362.9 504 252 504 113.3 391.5 8 252.8 8M105.2 352.9c-1.3 1-1 3.3.7 5.2 1.6 1.6 3.9 2.3 5.2 1 1.3-1 1-3.3-.7-5.2-1.6-1.6-3.9-2.3-5.2-1m-10.8-8.1c-.7 1.3.3 2.9 2.3 3.9 1.6 1 3.6.7 4.3-.7.7-1.3-.3-2.9-2.3-3.9-2-.6-3.6-.3-4.3.7m32.4 35.6c-1.6 1.3-1 4.3 1.3 6.2 2.3 2.3 5.2 2.6 6.5 1 1.3-1.3.7-4.3-1.3-6.2-2.2-2.3-5.2-2.6-6.5-1m-11.4-14.7c-1.6 1-1.6 3.6 0 5.9s4.3 3.3 5.6 2.3c1.6-1.3 1.6-3.9 0-6.2-1.4-2.3-4-3.3-5.6-2"/></svg>
+  </div>
+  <div class="md-source__repository">
+    epepepelephant/ep_blog
+  </div>
+</a>
+    </div>
+  
+  <ul class="md-nav__list" data-md-scrollfix>
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../.." class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Home
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+    
+  
+  
+  
+    
+    
+    
+    
+      
+        
+        
+      
+      
+        
+      
+    
+    
+    <li class="md-nav__item md-nav__item--active md-nav__item--section md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_2" checked>
+        
+          
+          <label class="md-nav__link" for="__nav_2" id="__nav_2_label" tabindex="">
+            
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    导航与定位
+  
+
+    
+  </span>
+  
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_2_label" aria-expanded="true">
+          <label class="md-nav__title" for="__nav_2">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    导航与定位
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../%E5%AF%B9SLAM%E5%92%8CTF%E7%9A%84%E7%90%86%E8%A7%A3/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    对SLAM和TF的理解
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../MPC/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    MPC
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+    
+  
+  
+  
+    <li class="md-nav__item md-nav__item--active">
+      
+      <input class="md-nav__toggle md-toggle" type="checkbox" id="__toc">
+      
+      
+      
+        <label class="md-nav__link md-nav__link--active" for="__toc">
+          
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Navigation2
+  
+
+    
+  </span>
+  
+  
+
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <a href="./" class="md-nav__link md-nav__link--active">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Navigation2
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+      
+        
+
+<nav class="md-nav md-nav--secondary" aria-label="目录">
+  
+  
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      目录
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#1navigation2" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        1.Navigation2 理论
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="1.Navigation2 理论">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#11navigation2" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        1.1.Navigation2 的介绍
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#12navigation" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        1.2.Navigation 架构
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#13" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        1.3.代价地图
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="1.3.代价地图">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#131-global-costmap" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        1.3.1.全局代价地图 (Global Costmap)
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#132-local-costmap" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        1.3.2.局部代价地图 (Local Costmap)
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#133costmap-filters" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        1.3.3.代价地图过滤器（Costmap Filters）
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#14action-server" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        1.4.动作服务器（Action Server）
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#15" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        1.5.生命周期
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="1.5.生命周期">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#151" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        1.5.1.生命周期节点
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#152" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        1.5.2.生命周期管理器
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#153-bond" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        1.5.3.绑定 bond
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#16-bt" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        1.6.行为树 BT
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="1.6.行为树 BT">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#161" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        1.6.1.行为树的基本构成
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#162-blackboard" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        1.6.2.节点间通信--Blackboard
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#17planner-server" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        1.7.规划器服务器（Planner Server)
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#18-controller-server" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        1.8.控制器服务器 (Controller Server)
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#19-recovery-behavior-server" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        1.9.恢复服务器 (Recovery / Behavior Server)
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#110amcladaptive-monte-carlo-localization" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        1.10.AMCL（Adaptive Monte Carlo Localization）
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="1.10.AMCL（Adaptive Monte Carlo Localization）">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#1101" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        1.10.1.运动更新
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#1102" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        1.10.2.观测更新
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#1103" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        1.10.3.重采样
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#1104" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        1.10.4.局限性
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#2navigation2" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        2.Navigation2 实践
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="2.Navigation2 实践">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#21navigation2" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        2.1.Navigation2 的安装
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#22-launch-navigation2" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        2.2.配置 launch 并启动 Navigation2
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#23-filter" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        2.3.设置 Filter
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="2.3.设置 Filter">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#231" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        2.3.1.禁区地图
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#232launch" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        2.3.2.launch
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#233" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        2.3.3.过滤器插件
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#234" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        2.3.4.运行效果
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#24" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        2.4.设置初始点和目标点
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="2.4.设置初始点和目标点">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#241" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        2.4.1. 设置初始点
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#242" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        2.4.2. 设置目标点
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#243" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        2.4.3. 关键设计点
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#25" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        2.5.参数配置
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="2.5.参数配置">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#251amcl" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        2.5.1.amcl 定位模块相关参数
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#252bt_navigator" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        2.5.2.bt_navigator 行为树导航相关参数
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#253controller_server" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        2.5.3.controller_server 控制服务器相关参数
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#254local_costmap" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        2.5.4.local_costmap 局部代价地图相关参数
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#255global_costmap" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        2.5.5.global_costmap 全局代价地图相关参数
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#256planner-server" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        2.5.6.planner server 全局规划器相关参数
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#257behavior_server" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        2.5.7.behavior_server 恢复行为相关参数
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#258velocity_smoother" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        2.5.8.velocity_smoother 速度平滑器相关参数
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+      
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+    
+    
+      
+      
+        
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_3" >
+        
+          
+          <label class="md-nav__link" for="__nav_3" id="__nav_3_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    AI
+  
+
+    
+  </span>
+  
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_3_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_3">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    AI
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../ai/%E7%A5%9E%E7%BB%8F%E7%BD%91%E7%BB%9C/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    神经网络
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../ai/CNN/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    CNN
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../ai/RNN/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    RNN
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../ai/Pytorch/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Pytorch
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../ai/%E7%9B%AE%E6%A0%87%E6%A3%80%E6%B5%8B%E7%9A%84%E5%8F%91%E5%B1%95%E5%8F%B2/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    目标检测的发展史
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+  </ul>
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+            
+              
+              <div class="md-sidebar md-sidebar--secondary" data-md-component="sidebar" data-md-type="toc" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+<nav class="md-nav md-nav--secondary" aria-label="目录">
+  
+  
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      目录
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#1navigation2" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        1.Navigation2 理论
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="1.Navigation2 理论">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#11navigation2" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        1.1.Navigation2 的介绍
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#12navigation" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        1.2.Navigation 架构
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#13" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        1.3.代价地图
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="1.3.代价地图">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#131-global-costmap" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        1.3.1.全局代价地图 (Global Costmap)
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#132-local-costmap" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        1.3.2.局部代价地图 (Local Costmap)
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#133costmap-filters" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        1.3.3.代价地图过滤器（Costmap Filters）
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#14action-server" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        1.4.动作服务器（Action Server）
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#15" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        1.5.生命周期
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="1.5.生命周期">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#151" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        1.5.1.生命周期节点
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#152" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        1.5.2.生命周期管理器
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#153-bond" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        1.5.3.绑定 bond
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#16-bt" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        1.6.行为树 BT
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="1.6.行为树 BT">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#161" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        1.6.1.行为树的基本构成
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#162-blackboard" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        1.6.2.节点间通信--Blackboard
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#17planner-server" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        1.7.规划器服务器（Planner Server)
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#18-controller-server" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        1.8.控制器服务器 (Controller Server)
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#19-recovery-behavior-server" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        1.9.恢复服务器 (Recovery / Behavior Server)
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#110amcladaptive-monte-carlo-localization" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        1.10.AMCL（Adaptive Monte Carlo Localization）
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="1.10.AMCL（Adaptive Monte Carlo Localization）">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#1101" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        1.10.1.运动更新
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#1102" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        1.10.2.观测更新
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#1103" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        1.10.3.重采样
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#1104" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        1.10.4.局限性
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#2navigation2" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        2.Navigation2 实践
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="2.Navigation2 实践">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#21navigation2" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        2.1.Navigation2 的安装
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#22-launch-navigation2" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        2.2.配置 launch 并启动 Navigation2
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#23-filter" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        2.3.设置 Filter
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="2.3.设置 Filter">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#231" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        2.3.1.禁区地图
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#232launch" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        2.3.2.launch
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#233" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        2.3.3.过滤器插件
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#234" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        2.3.4.运行效果
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#24" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        2.4.设置初始点和目标点
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="2.4.设置初始点和目标点">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#241" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        2.4.1. 设置初始点
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#242" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        2.4.2. 设置目标点
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#243" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        2.4.3. 关键设计点
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#25" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        2.5.参数配置
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="2.5.参数配置">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#251amcl" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        2.5.1.amcl 定位模块相关参数
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#252bt_navigator" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        2.5.2.bt_navigator 行为树导航相关参数
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#253controller_server" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        2.5.3.controller_server 控制服务器相关参数
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#254local_costmap" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        2.5.4.local_costmap 局部代价地图相关参数
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#255global_costmap" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        2.5.5.global_costmap 全局代价地图相关参数
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#256planner-server" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        2.5.6.planner server 全局规划器相关参数
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#257behavior_server" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        2.5.7.behavior_server 恢复行为相关参数
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#258velocity_smoother" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        2.5.8.velocity_smoother 速度平滑器相关参数
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+          
+          
+            <div class="md-content" data-md-component="content">
+              
+              <article class="md-content__inner md-typeset">
+                
+                  
+
+
+  
+  
+
+
+  <h1>Navigation2</h1>
+
+<h2 id="1navigation2">1.Navigation2 理论<a class="headerlink" href="#1navigation2" title="Permanent link">&para;</a></h2>
+<h3 id="11navigation2">1.1.Navigation2 的介绍<a class="headerlink" href="#11navigation2" title="Permanent link">&para;</a></h3>
+<ul>
+<li><strong>Nav2 (Navigation 2)</strong> 是 ROS 2 环境下最核心的移动机器人自主导航框架。它的终极目标是：<strong>安全地让机器人从 A 点移动到 B 点，且具备处理复杂环境、动态障碍物以及任务逻辑的能力</strong></li>
+<li><strong>"容器"与"插件"的分离</strong></li>
+<li><strong>核心逻辑：Server 容器，Plugin 插件。</strong></li>
+<li><strong>Server 的工作</strong><strong>：负责收发 ROS 消息（Action）、维护地图数据（Costmap）、管理生命周期。</strong></li>
+<li><strong>Plugin 的工作：只负责纯粹的数学计算（怎么走、怎么避障）。</strong></li>
+</ul>
+<h3 id="12navigation">1.2.Navigation 架构<a class="headerlink" href="#12navigation" title="Permanent link">&para;</a></h3>
+<p><img alt="" src="../assets/Navigation2/nav2-001.png" /></p>
+<ul>
+<li>Nav2 使用行为树调用模块化服务器来完成一个动作。动作可以是计算路径、控制力、恢复或任何其他与导航相关的操作。这些都是通过 ROS Action 服务器与行为树 (BT) 通信的独立节点。</li>
+<li>
+<p>上面那张图可以解析为一大三小四个服务来理解</p>
+</li>
+<li>
+<p><strong>一大</strong>：BT Navigator Server 导航<strong>行为树</strong>服务，通过这个大的服务来进行下面三个小服务组织和调用</p>
+</li>
+<li>1.Planner Server，规划服务器，其任务是计算完成一些目标函数的路径。根据所选的命名法和算法，该路径也可以称为路线。<strong>说白了就是在地图上找路</strong></li>
+<li>2.Controller Server，控制服务器，在 ROS 1 中也被称为局部规划器，是我们跟随全局计算路径或完成局部任务的方法。<strong>说白了就是根据找的路控制机器人走路。</strong></li>
+<li>3.Recovery Server，恢复服务器，恢复器是容错系统的支柱。恢复器的目标是处理系统的未知状况或故障状况并自主处理这些状况。<strong>说白了就是机器人可能出现意外的时候想办法让其正常，比如走着走着掉坑如何爬出来。</strong></li>
+</ul>
+<h3 id="13">1.3.代价地图<a class="headerlink" href="#13" title="Permanent link">&para;</a></h3>
+<ul>
+<li>代价地图是一个规则的 2D 网格单元，每个单元包含一个代价值，表示：未知 (Unknown)、空闲 (Free)、被占据 (Occupied) 或膨胀代价 (Inflated cost)</li>
+<li>核心架构：Layers (图层叠加)</li>
+</ul>
+<h4 id="131-global-costmap">1.3.1.全局代价地图 (Global Costmap)<a class="headerlink" href="#131-global-costmap" title="Permanent link">&para;</a></h4>
+<ul>
+<li>全局代价地图服务于 <strong>Planner Server（全局规划器）</strong></li>
+<li>它根据之前 SLAM 扫出来的静态地图，计算出一条从起始点到终点的最优理论路径（那条蓝色的长线）</li>
+<li>坐标系：<strong>map</strong></li>
+<li>
+<p>全局代价地图包括的图层：</p>
+</li>
+<li>
+<p>Static Map Layer：静态地图层，通常都是 SLAM 建立完成的静态地图。</p>
+</li>
+<li>Obstacle Map Layer：障碍地图层，用于动态的记录传感器感知到的障碍物信息。</li>
+<li>Inflation Layer：膨胀层，在以上两层地图上进行膨胀（向外扩张），以避免机器人的外壳会撞上障碍物。</li>
+</ul>
+<h4 id="132-local-costmap">1.3.2.局部代价地图 (Local Costmap)<a class="headerlink" href="#132-local-costmap" title="Permanent link">&para;</a></h4>
+<ul>
+<li>局部代价地图主要用于<strong>局部的路径规划器</strong></li>
+<li>负责躲避。它实时融合激光雷达、深度摄像头的数据，观察脚下有没有突然出现障碍物</li>
+<li><strong>滚动窗口 (Rolling Window)：</strong> 这是它最大的特点。随着机器人移动，这个小地图会跟着机器人一起走，旧的区域被丢弃，新的传感器数据被填入</li>
+<li>坐标系：<code>odom</code>或<code>base_link</code></li>
+<li>
+<p>局部代价地图包括的图层：</p>
+</li>
+<li>
+<p>Obstacle Map Layer：障碍地图层，用于动态的记录传感器感知到的障碍物信息。</p>
+</li>
+<li>Inflation Layer：膨胀层，在障碍地图层上进行膨胀（向外扩张），以避免机器人的外壳会撞上障碍物。</li>
+</ul>
+<h4 id="133costmap-filters">1.3.3.代价地图过滤器（Costmap Filters）<a class="headerlink" href="#133costmap-filters" title="Permanent link">&para;</a></h4>
+<ul>
+<li>代价地图过滤器是作为代价地图插件实现的。这些插件被称为"过滤器"，因为它们通过过滤掩码上标记的空间注释来过滤代价地图。</li>
+<li>
+<p>利用代价地图过滤器可以实现以下功能：</p>
+</li>
+<li>
+<p><strong>Keep-out/safety zones (禁行/安全区)</strong>：机器人永远不会进入的区域。</p>
+</li>
+<li><strong>Speed restriction areas (限速区)</strong>：机器人进入这些区域后的最大速度将受到限制。</li>
+<li><strong>Preferred lanes (优先通道)</strong>：用于工业环境和仓库中机器人移动的首选路径。</li>
+</ul>
+<h3 id="14action-server">1.4.动作服务器（Action Server）<a class="headerlink" href="#14action-server" title="Permanent link">&para;</a></h3>
+<ul>
+<li>在 Nav2 (Navigation 2) 中，<strong>动作服务器 (Action Server)</strong> 是核心通信机制的基石。不同于简单的服务 (Service) 调用（请求 - 立即响应）或话题 (Topic) 发布（单向数据流），Action Server 专门用于处理<strong>长时间运行、需要反馈、且可以中途取消</strong>的任务。</li>
+<li>通过动作服务器通信，来计算路径规划、控制机器人运动和恢复。每个动作服务器都有自己独特的 <code>nav2_msgs</code> 格式的 <code>.action</code> 类型，用于与服务器进行交互。</li>
+<li>由于任务运行时间较长，Action Servers 还会向其客户端提供 <strong>Feedback (反馈)</strong>。反馈的内容可以是任何信息，它与请求 (Request) 和结果 (Result) 类型一起定义在 ROS 的 <code>.action</code> 文件中。</li>
+</ul>
+<h3 id="15">1.5.生命周期<a class="headerlink" href="#15" title="Permanent link">&para;</a></h3>
+<h4 id="151">1.5.1.生命周期节点<a class="headerlink" href="#151" title="Permanent link">&para;</a></h4>
+<p><a href="https://design.ros2.org/articles/node_lifecycle.html">Managed nodes</a></p>
+<p>Nav2 引入了 <code>Managed Nodes</code> 节点的概念，让节点有了状态，从而听从指挥开始工作。一共有四个状态：</p>
+<ul>
+<li>
+<p><code>Unconfigured</code>：</p>
+</li>
+<li>
+<p>节点刚启动，同时等待配置指令</p>
+</li>
+<li>
+<p><code>Inactive</code>：</p>
+</li>
+<li>
+<p>节点加载好了参数，分配好了内存，同时读取了地图，但是还没开始工作。等待工作指令</p>
+</li>
+<li>
+<p><code>Active</code>：</p>
+</li>
+<li>
+<p>节点开始工作。只有在工作状态，<code>Planner</code> 和<code>Controller</code>才能工作</p>
+</li>
+<li>
+<p><code>Finalized</code>：</p>
+</li>
+<li>
+<p>节点关闭，释放所有资源</p>
+</li>
+</ul>
+<p>对应的回调函数</p>
+<ul>
+<li><code>on_configure()</code>: 加载参数，建立 Publisher/Subscriber</li>
+<li><code>on_activate()</code>: 真正激活 Publisher，开始处理数据</li>
+<li><code>on_deactivate()</code>: 暂停发布，停止处理，保留配置</li>
+<li><code>on_cleanup()</code>: 清除内存，重置为 Unconfigured</li>
+</ul>
+<h4 id="152">1.5.2.生命周期管理器<a class="headerlink" href="#152" title="Permanent link">&para;</a></h4>
+<p><code>lifecycle_manager</code> 切换节点的工作状态</p>
+<ol>
+<li><strong>加载地图 (Map Server):</strong> 必须先有地图。 -&gt; <code>Configure</code> -&gt; <code>Activate</code></li>
+<li><strong>定位 (AMCL):</strong> 有了地图，才能让定位算法初始化粒子群。 -&gt; <code>Configure</code> -&gt; <code>Activate</code></li>
+<li><strong>路径规划 (Planner Server):</strong> 有了地图和定位，才能算路。 -&gt; <code>Configure</code> -&gt; <code>Activate</code></li>
+<li><strong>控制器 (Controller Server):</strong> 前面都好了，才能准备开车。 -&gt; <code>Configure</code> -&gt; <code>Activate</code></li>
+<li>
+<p><strong>导航中枢 (BT Navigator):</strong> 最后启动总指挥，因为它依赖以上所有服务。</p>
+</li>
+<li>
+<p><code>lifecycle_manager</code> 确保了节点的启动顺序</p>
+</li>
+</ol>
+<h4 id="153-bond">1.5.3.绑定 bond<a class="headerlink" href="#153-bond" title="Permanent link">&para;</a></h4>
+<ul>
+<li>用于处理某个节点的异常</li>
+<li><code>lifecycle_manager</code> (Server) 和每一个被管理的节点 (Client) 之间建立一条特殊的连接，当某个被管理的节点崩溃了，<code>lifecycle_manager</code>直接触发超级防反（保护机制，把其他节点从<code>active</code>变成<code>inactive</code></li>
+</ul>
+<h3 id="16-bt">1.6.行为树 BT<a class="headerlink" href="#16-bt" title="Permanent link">&para;</a></h3>
+<p><a href="https://blog.csdn.net/JeSuisDavid/article/details/139619212">行为树 Behavoir Tree 入门教程 | 讲的最清晰的教程 (大概)_行为树教程-CSDN 博客</a></p>
+<p>在 Nav2 中用 XML 文件来描述树</p>
+<h4 id="161">1.6.1.行为树的基本构成<a class="headerlink" href="#161" title="Permanent link">&para;</a></h4>
+<p>行为树由<strong>节点 (Nodes)</strong> 组成。每一次逻辑更新（通常是几十毫秒一次），信号（我们称为 <strong>Tick</strong>）从根节点出发，遍历整棵树。每个节点被 Tick 后，必须返回以下三种状态之一：</p>
+<ol>
+<li><strong>SUCCESS (成功)</strong></li>
+<li><strong>FAILURE (失败)</strong></li>
+<li><strong>RUNNING (运行中)</strong></li>
+</ol>
+<p>同时，节点也有四大类：</p>
+<ul>
+<li>控制流节点 (<code>Control Flow Nodes</code>)</li>
+</ul>
+<p>负责指挥信号的流动</p>
+<ul>
+<li>
+<p><code>Sequence</code> (序列节点) <code>-&gt;</code></p>
+</li>
+<li>
+<p><strong>逻辑：AND (与)</strong>。</p>
+</li>
+<li>
+<p><strong>规则：</strong> 依次执行子节点。如果所有子节点都返回 <code>SUCCESS</code>，它才返回 <code>SUCCESS</code>。只要有一个子节点返回 <code>FAILURE</code>，它立刻中断并返回 <code>FAILURE</code>。</p>
+</li>
+<li>
+<p><code>Fallback / Selector</code> (选择/回退节点) <code>?</code></p>
+</li>
+<li>
+<p><strong>逻辑：</strong>OR (或)。</p>
+</li>
+<li>
+<p><strong>规则：</strong> 依次执行子节点。只要有一个返回 <code>SUCCESS</code>，它就立刻返回 <code>SUCCESS</code>（任务完成）。只有所有子节点都 <code>FAILURE</code>，它才返回 <code>FAILURE</code>。</p>
+</li>
+<li>
+<p><code>Parallel</code> (并行节点) <code>||</code></p>
+</li>
+<li>
+<p>执行节点 (<code>Leaf Nodes - Action</code>)</p>
+</li>
+</ul>
+<p>人如其名，就是干活的节点，通常对应的是 Action Client</p>
+<ul>
+<li><code>ComputePathToPose</code>: 调用 Planner Server 算路。</li>
+<li><code>FollowPath</code>: 调用 Controller Server 走路。</li>
+<li>
+<p><code>Spin</code>, <code>Wait</code>, <code>BackUp</code>: 调用 Behavior Server 救急。</p>
+</li>
+<li>
+<p>条件节点 (<code>Leaf Nodes - Condition</code>)</p>
+</li>
+</ul>
+<p>负责检查环境，只返回 SUCCESS 或 FAILURE</p>
+<ul>
+<li><code>IsBatteryLow</code></li>
+<li><code>GoalReached</code></li>
+<li>
+<p><code>IsPathValid</code></p>
+</li>
+<li>
+<p>装饰节点 (<code>Decorator Nodes</code>)</p>
+</li>
+</ul>
+<p>负责装饰其他的节点，修改其他子节点的行为</p>
+<ul>
+<li><code>RateController</code>: 限制频率（例如：别 100Hz 规划路径，限制在 1Hz 就行）。</li>
+<li><code>Retry</code>: 重试（例如：规划失败别急着报错，重试 3 次再说）。</li>
+<li><code>Inverter</code>: 取反（把成功变失败，失败变成功）。</li>
+</ul>
+<p>掌握了上面的节点，看懂下面这个树就很简单了</p>
+<p><img alt="" src="../assets/Navigation2/nav2-002.png" /></p>
+<h4 id="162-blackboard">1.6.2.节点间通信--Blackboard<a class="headerlink" href="#162-blackboard" title="Permanent link">&para;</a></h4>
+<p>黑板（<code>Blackboard</code>）本质上就是一个<strong>类型安全的字典（Dictionary/Map）</strong></p>
+<p>字典是属于<strong>这棵行为树</strong>的。树里的所有节点都能访问它，但树外面的程序（比如其他的 ROS 节点）无法直接访问</p>
+<h3 id="17planner-server">1.7.规划器服务器（Planner Server)<a class="headerlink" href="#17planner-server" title="Permanent link">&para;</a></h3>
+<ul>
+<li>它的任务：在地图上画出一条从起点 A 到终点 B 的线。它不关心机器人现在速度是多少。它只关心静态的地图墙壁在哪里。</li>
+<li>
+<p>输入：</p>
+</li>
+<li>
+<p><strong>目标点 (Goal Pose)</strong>: 你想去哪？</p>
+</li>
+<li>
+<p><strong>全局代价地图 (Global Costmap)</strong>: 基于整个静态地图构建的障碍物信息。</p>
+</li>
+<li>
+<p>输出：全局路径 (Global Path): 一连串密集的坐标点列表 <img alt="" src="../assets/Navigation2/nav2-math.svg" />。</p>
+</li>
+<li>
+<p>特点：</p>
+</li>
+<li>
+<p><strong>频率低：</strong> 通常只在任务开始时算一次，或者每隔几秒重算一次。</p>
+</li>
+<li>
+<p><strong>视野大：</strong> 看到的是整个世界的全貌。</p>
+</li>
+<li>
+<p>神秘插件：还没学到还没用到（等到时候填坑吧）</p>
+</li>
+<li>
+<p><code>_NavFn / Theta_</code><em>: 最经典的 A*</em> 或 Dijkstra 算法。算出的路是格栅化的（锯齿状），适合大部分差速/全向机器人。</p>
+</li>
+<li><code>Smac Planner</code><strong>:</strong> 适用于阿克曼转向（像汽车一样）<em>的机器人。它算出的路考虑了转弯半径，还可以处理全方位（Omni）或混合 A*</em> 算法。</li>
+</ul>
+<h3 id="18-controller-server">1.8.控制器服务器 (Controller Server)<a class="headerlink" href="#18-controller-server" title="Permanent link">&para;</a></h3>
+<ul>
+<li>它的任务：拿着 Planner 给的路线，让机器人避开眼前的障碍物</li>
+<li>
+<p><strong>输入：</strong></p>
+</li>
+<li>
+<p><strong>全局路径 (Global Path):</strong> Planner 给的那条线。</p>
+</li>
+<li><strong>里程计 (Odometry):</strong> 机器人现在的速度和位置。</li>
+<li>
+<p><strong>局部代价地图 (Local Costmap):这是关键！</strong> 它只看机器人周围 3-5 米的范围，是实时更新的（包含雷达扫到的动态障碍物）。</p>
+</li>
+<li>
+<p><strong>输出：</strong></p>
+</li>
+<li>
+<p><strong>速度指令 (</strong><code>**cmd_vel**</code><strong>):</strong> 告诉底盘 <code>Linear X</code> (前进速度) 和 <code>Angular Z</code> (转弯速度)。</p>
+</li>
+<li>
+<p><strong>特点：</strong></p>
+</li>
+<li>
+<p><strong>频率高：</strong> 疯狂计算，通常 20Hz - 50Hz（每秒算 20 次以上）。</p>
+</li>
+<li>
+<p><strong>视野小：</strong> 只盯着脚下的路。</p>
+</li>
+<li>
+<p>依旧神秘插件：依旧还没学，等我 nav2 实操之后来补</p>
+</li>
+<li>
+<p>这是 Nav2 调优的深水区，不同的插件决定了机器人走得"顺不顺"：</p>
+</li>
+<li><strong>DWB (Dynamic Window Approach):</strong> 经典的 DWA 升级版。原理是模拟未来几秒内所有可能的速度组合，选出一条既贴合路径又不撞墙的轨迹。<strong>最常用，适合入门。</strong></li>
+<li><strong>MPPI (Model Predictive Path Integral):</strong><strong>现在的明星算法</strong>。基于模型预测控制。不需要复杂的参数调整，就能走出极其丝滑的绕障路径，甚至能处理高速动态环境。</li>
+<li><strong>RPP (Regulated Pure Pursuit):</strong> 纯追踪算法。主要用于<strong>阿克曼结构（汽车）</strong>，就像车总是盯着前方一个预瞄点开。</li>
+</ul>
+<h3 id="19-recovery-behavior-server">1.9.恢复服务器 (Recovery / Behavior Server)<a class="headerlink" href="#19-recovery-behavior-server" title="Permanent link">&para;</a></h3>
+<ul>
+<li>它的任务：当出现紧急情况的时候，会被行为树呼叫并作出反映</li>
+<li>特点：通常是开环的，不依赖于路径规划</li>
+<li>
+<p>常用插件：</p>
+</li>
+<li>
+<p><strong>Costmap Clearing:</strong> 强制把某个区域的障碍物记忆抹除（万一之前是传感器噪声呢？）。</p>
+</li>
+<li><strong>Spin:</strong> 原地转圈，试图找到新的出路。</li>
+<li><strong>BackUp:</strong> 盲目倒车（Controller 通常不允许盲目倒车，必须要有路径，但 Recovery 可以特权倒车）。</li>
+<li><strong>DriveOnHeading:</strong> 强制朝某个方向开一段距离。</li>
+</ul>
+<h3 id="110amcladaptive-monte-carlo-localization">1.10.AMCL（Adaptive Monte Carlo Localization）<a class="headerlink" href="#110amcladaptive-monte-carlo-localization" title="Permanent link">&para;</a></h3>
+<p>AMCL 的本质是<strong>贝叶斯滤波</strong>的一种非参数化实现，解决的是机器人借助传感器的定位问题。</p>
+<p>我们在 RVIZ2 看到的神秘绿色粒子就是 ACML 工作时产生的东西</p>
+<p>贝叶斯滤波，本质上是根据'当前的观测'和'刚才的预测'之间的偏差，来不断修正对真相猜测的算法。呃卡尔曼滤波好像是贝叶斯滤波的特殊情况吧，（感觉是概率论的东西。后面再填坑吧。</p>
+<p>下面会介绍一点点参数，但更多参数还是在官网里看吧 <a href="https://docs.nav2.org/configuration/packages/configuring-amcl.html#parameters">AMCL — Nav2 1.0.0 documentation</a></p>
+<h4 id="1101">1.10.1.运动更新<a class="headerlink" href="#1101" title="Permanent link">&para;</a></h4>
+<p>输入：里程计数据（odom）</p>
+<p>特点：粒子根据里程计的输入运动，同时加入一点 <code>高斯噪声</code>，让粒子的运动更加不确定一点</p>
+<p>参数：就是这一坨 alpha。alpha 的值越大，高斯噪声越大，适用于里程计较烂的情况
+<img alt="" src="../assets/Navigation2/nav2-003.png" /></p>
+<h4 id="1102">1.10.2.观测更新<a class="headerlink" href="#1102" title="Permanent link">&para;</a></h4>
+<p>输入：激光雷达数据（Laser Scan）</p>
+<p>特点：根据雷达扫描到墙壁的数值和粒子的位置，调整粒子的权重。粒子位置和雷达扫描到的位置匹配的权重会更高</p>
+<p>参数：</p>
+<ul>
+<li>z_hit：这个是正常击中墙壁的权重。越高意味着环境干扰少，雷达打到的大部分都是墙壁</li>
+<li>z_max：这个是雷达的数据完全失效的权重</li>
+<li>z_rand：这个是随机分，用于抗电磁干扰或雷达的短时间异常</li>
+<li>z_short：这个是意外遮挡。如果环境里动态障碍多，就加大这个权重
+    <img alt="" src="../assets/Navigation2/nav2-004.png" /></li>
+</ul>
+<h4 id="1103">1.10.3.重采样<a class="headerlink" href="#1103" title="Permanent link">&para;</a></h4>
+<p>特点：算法根据刚才的权重重新生成一批粒子，权重高的粒子能被多次复制，而权重低的粒子就可能会消失。</p>
+<p>这也就是在 RVIZ2 看到粒子快速收敛的原因</p>
+<h4 id="1104">1.10.4.局限性<a class="headerlink" href="#1104" title="Permanent link">&para;</a></h4>
+<ul>
+<li><strong>对称环境：</strong>雷达扫描到的两边数据相同，很难调整权重</li>
+<li><strong>瞬移：</strong>如果机器人一下子被转移到另一个地方，并且没有重新设置初始点，那观测更新就会不断降低原有粒子的权重，导致机器人可能就会去世</li>
+</ul>
+<h2 id="2navigation2">2.Navigation2 实践<a class="headerlink" href="#2navigation2" title="Permanent link">&para;</a></h2>
+<h3 id="21navigation2">2.1.Navigation2 的安装<a class="headerlink" href="#21navigation2" title="Permanent link">&para;</a></h3>
+<ul>
+<li>navagation2</li>
+</ul>
+<div class="highlight"><pre><span></span><code>sudo apt install ros-$ROS_DISTRO-navigation2
+</code></pre></div>
+
+<ul>
+<li>nav2_bringup 功能包</li>
+</ul>
+<div class="highlight"><pre><span></span><code>sudo apt install ros-$ROS_DISTRO-nav2-bringup
+</code></pre></div>
+
+<h3 id="22-launch-navigation2">2.2.配置 launch 并启动 Navigation2<a class="headerlink" href="#22-launch-navigation2" title="Permanent link">&para;</a></h3>
+<div class="highlight"><pre><span></span><code><span class="kn">import</span><span class="w"> </span><span class="nn">os</span>
+<span class="kn">import</span><span class="w"> </span><span class="nn">launch</span>
+<span class="kn">import</span><span class="w"> </span><span class="nn">launch_ros</span>
+<span class="kn">from</span><span class="w"> </span><span class="nn">ament_index_python.packages</span><span class="w"> </span><span class="kn">import</span> <span class="n">get_package_share_directory</span>
+<span class="kn">from</span><span class="w"> </span><span class="nn">launch.launch_description_sources</span><span class="w"> </span><span class="kn">import</span> <span class="n">PythonLaunchDescriptionSource</span>
+
+
+<span class="k">def</span><span class="w"> </span><span class="nf">generate_launch_description</span><span class="p">():</span>
+    <span class="c1"># 获取与拼接默认路径</span>
+        <span class="c1">#功能包的目录</span>
+    <span class="n">fishbot_navigation2_dir</span> <span class="o">=</span> <span class="n">get_package_share_directory</span><span class="p">(</span>
+        <span class="s1">&#39;ep_navigation2&#39;</span><span class="p">)</span>
+        <span class="c1">#nav2_bringup 功能包的目录</span>
+    <span class="n">nav2_bringup_dir</span> <span class="o">=</span> <span class="n">get_package_share_directory</span><span class="p">(</span><span class="s1">&#39;nav2_bringup&#39;</span><span class="p">)</span>
+        <span class="c1">#这个功能包对应的 rviz 配置文件</span>
+    <span class="n">rviz_config_dir</span> <span class="o">=</span> <span class="n">os</span><span class="o">.</span><span class="n">path</span><span class="o">.</span><span class="n">join</span><span class="p">(</span>
+        <span class="n">nav2_bringup_dir</span><span class="p">,</span> <span class="s1">&#39;rviz&#39;</span><span class="p">,</span> <span class="s1">&#39;nav2_default_view.rviz&#39;</span><span class="p">)</span>
+
+    <span class="c1"># 创建 Launch 配置</span>
+        <span class="c1">#虚拟时间配置</span>
+    <span class="n">use_sim_time</span> <span class="o">=</span> <span class="n">launch</span><span class="o">.</span><span class="n">substitutions</span><span class="o">.</span><span class="n">LaunchConfiguration</span><span class="p">(</span>
+        <span class="s1">&#39;use_sim_time&#39;</span><span class="p">,</span> <span class="n">default</span><span class="o">=</span><span class="s1">&#39;true&#39;</span><span class="p">)</span>
+        <span class="c1">#地图配置文件</span>
+    <span class="n">map_yaml_path</span> <span class="o">=</span> <span class="n">launch</span><span class="o">.</span><span class="n">substitutions</span><span class="o">.</span><span class="n">LaunchConfiguration</span><span class="p">(</span>
+        <span class="s1">&#39;map&#39;</span><span class="p">,</span> <span class="n">default</span><span class="o">=</span><span class="n">os</span><span class="o">.</span><span class="n">path</span><span class="o">.</span><span class="n">join</span><span class="p">(</span><span class="n">fishbot_navigation2_dir</span><span class="p">,</span> <span class="s1">&#39;maps&#39;</span><span class="p">,</span> <span class="s1">&#39;room.yaml&#39;</span><span class="p">))</span>
+        <span class="c1">#参数配置文件</span>
+    <span class="n">nav2_param_path</span> <span class="o">=</span> <span class="n">launch</span><span class="o">.</span><span class="n">substitutions</span><span class="o">.</span><span class="n">LaunchConfiguration</span><span class="p">(</span>
+        <span class="s1">&#39;params_file&#39;</span><span class="p">,</span> <span class="n">default</span><span class="o">=</span><span class="n">os</span><span class="o">.</span><span class="n">path</span><span class="o">.</span><span class="n">join</span><span class="p">(</span><span class="n">fishbot_navigation2_dir</span><span class="p">,</span> <span class="s1">&#39;config&#39;</span><span class="p">,</span> <span class="s1">&#39;nav2_params.yaml&#39;</span><span class="p">))</span>
+
+    <span class="k">return</span> <span class="n">launch</span><span class="o">.</span><span class="n">LaunchDescription</span><span class="p">([</span>
+        <span class="c1"># 声明新的 Launch 参数</span>
+        <span class="n">launch</span><span class="o">.</span><span class="n">actions</span><span class="o">.</span><span class="n">DeclareLaunchArgument</span><span class="p">(</span><span class="s1">&#39;use_sim_time&#39;</span><span class="p">,</span> <span class="n">default_value</span><span class="o">=</span><span class="n">use_sim_time</span><span class="p">,</span>
+                                             <span class="n">description</span><span class="o">=</span><span class="s1">&#39;Use simulation (Gazebo) clock if true&#39;</span><span class="p">),</span>
+        <span class="n">launch</span><span class="o">.</span><span class="n">actions</span><span class="o">.</span><span class="n">DeclareLaunchArgument</span><span class="p">(</span><span class="s1">&#39;map&#39;</span><span class="p">,</span> <span class="n">default_value</span><span class="o">=</span><span class="n">map_yaml_path</span><span class="p">,</span>
+                                             <span class="n">description</span><span class="o">=</span><span class="s1">&#39;Full path to map file to load&#39;</span><span class="p">),</span>
+        <span class="n">launch</span><span class="o">.</span><span class="n">actions</span><span class="o">.</span><span class="n">DeclareLaunchArgument</span><span class="p">(</span><span class="s1">&#39;params_file&#39;</span><span class="p">,</span> <span class="n">default_value</span><span class="o">=</span><span class="n">nav2_param_path</span><span class="p">,</span>
+                                             <span class="n">description</span><span class="o">=</span><span class="s1">&#39;Full path to param file to load&#39;</span><span class="p">),</span>
+
+        <span class="n">launch</span><span class="o">.</span><span class="n">actions</span><span class="o">.</span><span class="n">IncludeLaunchDescription</span><span class="p">(</span>
+            <span class="n">PythonLaunchDescriptionSource</span><span class="p">(</span>
+                <span class="c1">#把参数传递给子 launch</span>
+                <span class="p">[</span><span class="n">nav2_bringup_dir</span><span class="p">,</span> <span class="s1">&#39;/launch&#39;</span><span class="p">,</span> <span class="s1">&#39;/bringup_launch.py&#39;</span><span class="p">]),</span>
+            <span class="c1"># 使用 Launch 参数替换原有参数</span>
+            <span class="n">launch_arguments</span><span class="o">=</span><span class="p">{</span>
+                <span class="s1">&#39;map&#39;</span><span class="p">:</span> <span class="n">map_yaml_path</span><span class="p">,</span>
+                <span class="s1">&#39;use_sim_time&#39;</span><span class="p">:</span> <span class="n">use_sim_time</span><span class="p">,</span>
+                <span class="s1">&#39;params_file&#39;</span><span class="p">:</span> <span class="n">nav2_param_path</span><span class="p">}</span><span class="o">.</span><span class="n">items</span><span class="p">(),</span>
+        <span class="p">),</span>
+        <span class="n">launch_ros</span><span class="o">.</span><span class="n">actions</span><span class="o">.</span><span class="n">Node</span><span class="p">(</span>
+            <span class="n">package</span><span class="o">=</span><span class="s1">&#39;rviz2&#39;</span><span class="p">,</span>
+            <span class="n">executable</span><span class="o">=</span><span class="s1">&#39;rviz2&#39;</span><span class="p">,</span>
+            <span class="n">name</span><span class="o">=</span><span class="s1">&#39;rviz2&#39;</span><span class="p">,</span>
+            <span class="n">arguments</span><span class="o">=</span><span class="p">[</span><span class="s1">&#39;-d&#39;</span><span class="p">,</span> <span class="n">rviz_config_dir</span><span class="p">],</span>
+            <span class="n">parameters</span><span class="o">=</span><span class="p">[{</span><span class="s1">&#39;use_sim_time&#39;</span><span class="p">:</span> <span class="n">use_sim_time</span><span class="p">}],</span>
+            <span class="n">output</span><span class="o">=</span><span class="s1">&#39;screen&#39;</span><span class="p">),</span>
+    <span class="p">])</span>
+</code></pre></div>
+
+<ul>
+<li>刚开始启动会出现诸如此类的报错，意思大概是话题无法读取和发布位置<img alt="" src="../assets/Navigation2/nav2-005.png" /></li>
+<li>查看 TF 树，发现其实这是因为没有 map 坐标系，机器人自然无法定位。此时只需要在 RVIZ2 中<img alt="" src="../assets/Navigation2/nav2-006.png" />估计初始位置即可<img alt="" src="../assets/Navigation2/nav2-007.png" /></li>
+<li>上面这一层就是全局地图，靠近小车的颜色较深的地方就是局部代价地图，分别对应</li>
+</ul>
+<p><img alt="" src="../assets/Navigation2/nav2-008.png" /></p>
+<h3 id="23-filter">2.3.设置 Filter<a class="headerlink" href="#23-filter" title="Permanent link">&para;</a></h3>
+<p>这里以设置 keepout filter 为例</p>
+<p>这一块的操作主要分为三步</p>
+<p>1.加一个禁区地图</p>
+<p>2.在 launch.py 中加两个服务节点发布信息</p>
+<p>3.启用过滤器插件</p>
+<h4 id="231">2.3.1.禁区地图<a class="headerlink" href="#231" title="Permanent link">&para;</a></h4>
+<p>这一步看似简单，实则有点阴间。</p>
+<p>因为在乌邦图里好像没有什么可以好处理格式为<code>.pgm</code>的图片的软件，而且强行把<code>.pgm</code>转为<code>.jpg</code>会失去一些像素信息。所以在这里选择用 opencv 画一个黑框框<img alt="" src="../assets/Navigation2/nav2-009.png" /><img alt="" src="../assets/Navigation2/nav2-010.png" /></p>
+<p>拿到地图了，同时也要设置<code>.yaml</code>文件，这个简单，就直接复制原图片的<code>.yaml</code>就可以了（改一下 image）</p>
+<h4 id="232launch">2.3.2.launch<a class="headerlink" href="#232launch" title="Permanent link">&para;</a></h4>
+<ol>
+<li>
+<p>这个节点的名字是<code>'filter_mask_server'</code>用于发布禁区地图的信息。</p>
+</li>
+<li>
+<p>值得注意的是，他把节点话题重映射为了<code>'/keepout_filter_mask'</code></p>
+</li>
+</ol>
+<div class="highlight"><pre><span></span><code><span class="nx">Node</span><span class="p">(</span>
+<span class="w">            </span><span class="kn">package</span><span class="p">=</span><span class="err">&#39;</span><span class="nx">nav2_map_server</span><span class="err">&#39;</span><span class="p">,</span>
+<span class="w">            </span><span class="nx">executable</span><span class="p">=</span><span class="err">&#39;</span><span class="nx">map_server</span><span class="err">&#39;</span><span class="p">,</span>
+<span class="w">            </span><span class="nx">name</span><span class="p">=</span><span class="err">&#39;</span><span class="nx">filter_mask_server</span><span class="err">&#39;</span><span class="p">,</span>
+<span class="w">            </span><span class="nx">output</span><span class="p">=</span><span class="err">&#39;</span><span class="nx">screen</span><span class="err">&#39;</span><span class="p">,</span>
+<span class="w">            </span><span class="nx">parameters</span><span class="p">=[{</span><span class="err">&#39;</span><span class="nx">use_sim_time</span><span class="err">&#39;</span><span class="p">:</span><span class="w"> </span><span class="nx">use_sim_time</span><span class="p">,</span>
+<span class="w">                         </span><span class="err">&#39;</span><span class="nx">yaml_filename</span><span class="err">&#39;</span><span class="p">:</span><span class="w"> </span><span class="nx">keepout_mask_path</span><span class="p">}],</span>
+<span class="w">            </span><span class="nx">remappings</span><span class="p">=[(</span><span class="err">&#39;</span><span class="o">/</span><span class="nx">map</span><span class="err">&#39;</span><span class="p">,</span><span class="w"> </span><span class="err">&#39;</span><span class="o">/</span><span class="nx">keepout_filter_mask</span><span class="err">&#39;</span><span class="p">)]</span><span class="w"> </span><span class="err">#</span><span class="w"> </span><span class="nx">避免和主地图冲突</span>
+<span class="w">        </span><span class="p">),</span>
+</code></pre></div>
+
+<ol>
+<li>
+<p>这个节点的名字叫<code>'costmap_filter_info_server'</code>用于解释禁区地图上的信息。</p>
+</li>
+<li>
+<p><code>'type': 0</code>是这个节点的核心，其中 0 代表禁行，1 代表限速</p>
+</li>
+<li><code>mask_topic</code>: 告诉它去哪里找图片数据。必须填上面那个节点重映射后的名字 <code>"/keepout_filter_mask"</code></li>
+<li><code>filter_info_topic</code>: 发布这个解释信息的话题名</li>
+<li><code>multiplier</code>: 系数。对于 Keepout 来说通常是 <code>1.0</code>。如果是限速区，这个数字可能用来计算具体限速多少</li>
+</ol>
+<div class="highlight"><pre><span></span><code><span class="nx">Node</span><span class="p">(</span>
+<span class="w">            </span><span class="kn">package</span><span class="p">=</span><span class="err">&#39;</span><span class="nx">nav2_map_server</span><span class="err">&#39;</span><span class="p">,</span>
+<span class="w">            </span><span class="nx">executable</span><span class="p">=</span><span class="err">&#39;</span><span class="nx">costmap_filter_info_server</span><span class="err">&#39;</span><span class="p">,</span>
+<span class="w">            </span><span class="nx">name</span><span class="p">=</span><span class="err">&#39;</span><span class="nx">costmap_filter_info_server</span><span class="err">&#39;</span><span class="p">,</span>
+<span class="w">            </span><span class="nx">output</span><span class="p">=</span><span class="err">&#39;</span><span class="nx">screen</span><span class="err">&#39;</span><span class="p">,</span>
+<span class="w">            </span><span class="nx">parameters</span><span class="p">=[{</span><span class="err">&#39;</span><span class="nx">use_sim_time</span><span class="err">&#39;</span><span class="p">:</span><span class="w"> </span><span class="nx">use_sim_time</span><span class="p">,</span>
+<span class="w">                         </span><span class="err">&#39;</span><span class="k">type</span><span class="err">&#39;</span><span class="p">:</span><span class="w"> </span><span class="mi">0</span><span class="p">,</span><span class="w"> </span><span class="err">#</span><span class="w"> </span><span class="mi">0</span><span class="w"> </span><span class="nx">代表</span><span class="w"> </span><span class="nx">Keepout</span>
+<span class="w">                         </span><span class="err">&#39;</span><span class="nx">filter_info_topic</span><span class="err">&#39;</span><span class="p">:</span><span class="w"> </span><span class="s">&quot;/keepout_costmap_filter_info&quot;</span><span class="p">,</span>
+<span class="w">                         </span><span class="err">&#39;</span><span class="nx">mask_topic</span><span class="err">&#39;</span><span class="p">:</span><span class="w"> </span><span class="s">&quot;/keepout_filter_mask&quot;</span><span class="p">,</span>
+<span class="w">                         </span><span class="err">&#39;</span><span class="kd">base</span><span class="err">&#39;</span><span class="p">:</span><span class="w"> </span><span class="m m-Double">0.0</span><span class="p">,</span>
+<span class="w">                         </span><span class="err">&#39;</span><span class="nx">multiplier</span><span class="err">&#39;</span><span class="p">:</span><span class="w"> </span><span class="m m-Double">1.0</span><span class="p">}],</span>
+<span class="w">        </span><span class="p">),</span>
+</code></pre></div>
+
+<ol>
+<li>这个节点的名字叫<code>'lifecycle_manager_costmap_filters'</code>用于管理禁行区的节点的生命周期</li>
+</ol>
+<div class="highlight"><pre><span></span><code><span class="nx">Node</span><span class="p">(</span>
+<span class="w">            </span><span class="kn">package</span><span class="p">=</span><span class="err">&#39;</span><span class="nx">nav2_lifecycle_manager</span><span class="err">&#39;</span><span class="p">,</span>
+<span class="w">            </span><span class="nx">executable</span><span class="p">=</span><span class="err">&#39;</span><span class="nx">lifecycle_manager</span><span class="err">&#39;</span><span class="p">,</span>
+<span class="w">            </span><span class="nx">name</span><span class="p">=</span><span class="err">&#39;</span><span class="nx">lifecycle_manager_costmap_filters</span><span class="err">&#39;</span><span class="p">,</span>
+<span class="w">            </span><span class="nx">output</span><span class="p">=</span><span class="err">&#39;</span><span class="nx">screen</span><span class="err">&#39;</span><span class="p">,</span>
+<span class="w">            </span><span class="nx">parameters</span><span class="p">=[{</span><span class="err">&#39;</span><span class="nx">use_sim_time</span><span class="err">&#39;</span><span class="p">:</span><span class="w"> </span><span class="nx">use_sim_time</span><span class="p">,</span>
+<span class="w">                         </span><span class="err">&#39;</span><span class="nx">autostart</span><span class="err">&#39;</span><span class="p">:</span><span class="w"> </span><span class="nx">True</span><span class="p">,</span>
+<span class="w">                         </span><span class="err">&#39;</span><span class="nx">node_names</span><span class="err">&#39;</span><span class="p">:</span><span class="w"> </span><span class="p">[</span><span class="err">&#39;</span><span class="nx">filter_mask_server</span><span class="err">&#39;</span><span class="p">,</span><span class="w"> </span><span class="err">&#39;</span><span class="nx">costmap_filter_info_server</span><span class="err">&#39;</span><span class="p">]}]</span>
+<span class="w">        </span><span class="p">),</span>
+</code></pre></div>
+
+<h4 id="233">2.3.3.过滤器插件<a class="headerlink" href="#233" title="Permanent link">&para;</a></h4>
+<ul>
+<li>在配置文件中加上插件</li>
+<li>注意在局部地图和全局地图都要加上</li>
+<li>特别注意一下 <code>filter_info_topic</code>一定要抓准了发布信息的话题<img alt="" src="../assets/Navigation2/nav2-011.png" /></li>
+</ul>
+<div class="highlight"><pre><span></span><code>filters: [&quot;keepout_filter&quot;]
+      keepout_filter:
+        plugin: &quot;nav2_costmap_2d::KeepoutFilter&quot;
+        enabled: True
+        filter_info_topic: &quot;/keepout_costmap_filter_info&quot;
+</code></pre></div>
+
+<h4 id="234">2.3.4.运行效果<a class="headerlink" href="#234" title="Permanent link">&para;</a></h4>
+<p>小车会检测到周围有一个这样的框框</p>
+<p>此时，再想让小车跑到框框外边，就会触发恢复器的操作，最后规划器也找不到路径出去了。<img alt="" src="../assets/Navigation2/nav2-012.png" /></p>
+<p><img alt="" src="../assets/Navigation2/nav2-013.png" /></p>
+<h3 id="24">2.4.设置初始点和目标点<a class="headerlink" href="#24" title="Permanent link">&para;</a></h3>
+<h4 id="241">2.4.1. 设置初始点<a class="headerlink" href="#241" title="Permanent link">&para;</a></h4>
+<p>当然可以用 RVIZ2 的设置形式，但是用代码写应该会更权威一点。这段 ROS 代码的核心逻辑就是，创建 <code>geometry_msgs::msg::PoseWithCovarianceStamped</code> 类的消息，通过 <code>initial_pose_pub_</code>发布到<code>/initialpose</code> 这个话题上。</p>
+<p><strong>initial.hpp</strong></p>
+<div class="highlight"><pre><span></span><code><span class="cp">#pragma once</span>
+
+<span class="cp">#include</span><span class="w"> </span><span class="cpf">&quot;rclcpp/rclcpp.hpp&quot;</span>
+<span class="cp">#include</span><span class="w"> </span><span class="cpf">&quot;geometry_msgs/msg/pose_with_covariance_stamped.hpp&quot;</span>
+
+<span class="k">class</span><span class="w"> </span><span class="nc">Initial</span><span class="w"> </span><span class="o">:</span><span class="w"> </span><span class="k">public</span><span class="w"> </span><span class="n">rclcpp</span><span class="o">::</span><span class="n">Node</span><span class="w"> </span><span class="p">{</span>
+<span class="k">public</span><span class="o">:</span>
+<span class="w">    </span><span class="c1">//构造函数</span>
+<span class="w">    </span><span class="n">Initial</span><span class="p">();</span>
+<span class="k">private</span><span class="o">:</span>
+<span class="w">    </span><span class="c1">//设置初始位姿态函数</span>
+<span class="w">    </span><span class="kt">void</span><span class="w"> </span><span class="n">set_initial_pose</span><span class="p">();</span>
+<span class="w">    </span><span class="c1">//定时器</span>
+<span class="w">    </span><span class="n">rclcpp</span><span class="o">::</span><span class="n">TimerBase</span><span class="o">::</span><span class="n">SharedPtr</span><span class="w"> </span><span class="n">timer_</span><span class="p">;</span>
+<span class="w">    </span><span class="c1">//消息发布者</span>
+<span class="w">    </span><span class="n">rclcpp</span><span class="o">::</span><span class="n">Publisher</span><span class="o">&lt;</span><span class="n">geometry_msgs</span><span class="o">::</span><span class="n">msg</span><span class="o">::</span><span class="n">PoseWithCovarianceStamped</span><span class="o">&gt;::</span><span class="n">SharedPtr</span><span class="w"> </span><span class="n">initial_pose_pub_</span><span class="p">;</span>
+<span class="p">};</span>
+</code></pre></div>
+
+<p><strong>initial.cpp</strong></p>
+<div class="highlight"><pre><span></span><code><span class="cp">#include</span><span class="w"> </span><span class="cpf">&quot;initial.hpp&quot;</span>
+
+<span class="c1">//初始化构造函数</span>
+<span class="n">Initial</span><span class="o">::</span><span class="n">Initial</span><span class="p">()</span><span class="w"> </span><span class="o">:</span><span class="w"> </span><span class="n">Node</span><span class="p">(</span><span class="s">&quot;initial_pose_publisher&quot;</span><span class="p">){</span>
+<span class="w">    </span><span class="n">initial_pose_pub_</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="k">this</span><span class="o">-&gt;</span><span class="n">create_publisher</span><span class="o">&lt;</span><span class="n">geometry_msgs</span><span class="o">::</span><span class="n">msg</span><span class="o">::</span><span class="n">PoseWithCovarianceStamped</span><span class="o">&gt;</span><span class="p">(</span><span class="s">&quot;initialpose&quot;</span><span class="p">,</span><span class="w"> </span><span class="mi">10</span><span class="p">);</span>
+<span class="w">    </span><span class="n">timer_</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="k">this</span><span class="o">-&gt;</span><span class="n">create_wall_timer</span><span class="p">(</span><span class="n">std</span><span class="o">::</span><span class="n">chrono</span><span class="o">::</span><span class="n">seconds</span><span class="p">(</span><span class="mi">1</span><span class="p">),</span><span class="n">std</span><span class="o">::</span><span class="n">bind</span><span class="p">(</span><span class="o">&amp;</span><span class="n">Initial</span><span class="o">::</span><span class="n">set_initial_pose</span><span class="p">,</span><span class="k">this</span><span class="p">));</span>
+<span class="p">}</span>
+<span class="kt">void</span><span class="w"> </span><span class="n">Initial</span><span class="o">::</span><span class="n">set_initial_pose</span><span class="p">(){</span>
+<span class="w">    </span><span class="n">timer_</span><span class="o">-&gt;</span><span class="n">cancel</span><span class="p">();</span>
+<span class="w">    </span><span class="k">auto</span><span class="w"> </span><span class="n">msg</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="n">geometry_msgs</span><span class="o">::</span><span class="n">msg</span><span class="o">::</span><span class="n">PoseWithCovarianceStamped</span><span class="p">();</span>
+
+<span class="w">    </span><span class="n">msg</span><span class="p">.</span><span class="n">header</span><span class="p">.</span><span class="n">frame_id</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="s">&quot;map&quot;</span><span class="p">;</span>
+<span class="w">    </span><span class="n">msg</span><span class="p">.</span><span class="n">header</span><span class="p">.</span><span class="n">stamp</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="k">this</span><span class="o">-&gt;</span><span class="n">now</span><span class="p">();</span>
+
+<span class="w">    </span><span class="n">msg</span><span class="p">.</span><span class="n">pose</span><span class="p">.</span><span class="n">pose</span><span class="p">.</span><span class="n">position</span><span class="p">.</span><span class="n">x</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="mf">0.0</span><span class="p">;</span>
+<span class="w">    </span><span class="n">msg</span><span class="p">.</span><span class="n">pose</span><span class="p">.</span><span class="n">pose</span><span class="p">.</span><span class="n">position</span><span class="p">.</span><span class="n">y</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="mf">0.0</span><span class="p">;</span>
+<span class="w">    </span><span class="n">msg</span><span class="p">.</span><span class="n">pose</span><span class="p">.</span><span class="n">pose</span><span class="p">.</span><span class="n">position</span><span class="p">.</span><span class="n">z</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="mf">0.0</span><span class="p">;</span>
+
+<span class="w">    </span><span class="n">msg</span><span class="p">.</span><span class="n">pose</span><span class="p">.</span><span class="n">pose</span><span class="p">.</span><span class="n">orientation</span><span class="p">.</span><span class="n">w</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="mf">1.0</span><span class="p">;</span>
+<span class="w">    </span><span class="n">msg</span><span class="p">.</span><span class="n">pose</span><span class="p">.</span><span class="n">pose</span><span class="p">.</span><span class="n">orientation</span><span class="p">.</span><span class="n">x</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="mf">0.0</span><span class="p">;</span>
+<span class="w">    </span><span class="n">msg</span><span class="p">.</span><span class="n">pose</span><span class="p">.</span><span class="n">pose</span><span class="p">.</span><span class="n">orientation</span><span class="p">.</span><span class="n">y</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="mf">0.0</span><span class="p">;</span>
+<span class="w">    </span><span class="n">msg</span><span class="p">.</span><span class="n">pose</span><span class="p">.</span><span class="n">pose</span><span class="p">.</span><span class="n">orientation</span><span class="p">.</span><span class="n">z</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="mf">0.0</span><span class="p">;</span>
+
+<span class="w">    </span><span class="n">msg</span><span class="p">.</span><span class="n">pose</span><span class="p">.</span><span class="n">covariance</span><span class="p">[</span><span class="mi">0</span><span class="p">]</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="mf">0.25</span><span class="p">;</span>
+<span class="w">    </span><span class="n">msg</span><span class="p">.</span><span class="n">pose</span><span class="p">.</span><span class="n">covariance</span><span class="p">[</span><span class="mi">7</span><span class="p">]</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="mf">0.25</span><span class="p">;</span>
+<span class="w">    </span><span class="n">msg</span><span class="p">.</span><span class="n">pose</span><span class="p">.</span><span class="n">covariance</span><span class="p">[</span><span class="mi">35</span><span class="p">]</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="mf">0.068</span><span class="p">;</span>
+
+<span class="w">    </span><span class="n">initial_pose_pub_</span><span class="o">-&gt;</span><span class="n">publish</span><span class="p">(</span><span class="n">msg</span><span class="p">);</span>
+
+<span class="w">    </span><span class="n">RCLCPP_INFO</span><span class="p">(</span><span class="k">this</span><span class="o">-&gt;</span><span class="n">get_logger</span><span class="p">(),</span><span class="w"> </span><span class="s">&quot;成功发布初始位姿&quot;</span><span class="p">);</span>
+<span class="p">}</span>
+</code></pre></div>
+
+<h4 id="242">2.4.2. 设置目标点<a class="headerlink" href="#242" title="Permanent link">&para;</a></h4>
+<p>同样可以通过代码设置导航目标点，发布到 <code>/goal_pose</code> 话题。</p>
+<p><strong>move.hpp</strong></p>
+<div class="highlight"><pre><span></span><code><span class="cp">#pragma once</span>
+<span class="cp">#include</span><span class="w"> </span><span class="cpf">&quot;rclcpp/rclcpp.hpp&quot;</span>
+<span class="cp">#include</span><span class="w"> </span><span class="cpf">&quot;geometry_msgs/msg/pose_stamped.hpp&quot;</span>
+
+<span class="k">class</span><span class="w"> </span><span class="nc">Move2Place</span><span class="w"> </span><span class="o">:</span><span class="w"> </span><span class="k">public</span><span class="w"> </span><span class="n">rclcpp</span><span class="o">::</span><span class="n">Node</span>
+<span class="p">{</span>
+<span class="w">    </span><span class="k">public</span><span class="o">:</span>
+<span class="w">        </span><span class="n">Move2Place</span><span class="p">();</span>
+<span class="w">    </span><span class="k">private</span><span class="o">:</span>
+<span class="w">        </span><span class="kt">void</span><span class="w"> </span><span class="n">move2place</span><span class="p">();</span>
+<span class="w">        </span><span class="kt">void</span><span class="w"> </span><span class="nf">get_pose</span><span class="p">();</span>
+<span class="w">        </span><span class="n">rclcpp</span><span class="o">::</span><span class="n">TimerBase</span><span class="o">::</span><span class="n">SharedPtr</span><span class="w"> </span><span class="n">timer_</span><span class="p">;</span>
+<span class="w">        </span><span class="n">geometry_msgs</span><span class="o">::</span><span class="n">msg</span><span class="o">::</span><span class="n">PoseStamped</span><span class="o">::</span><span class="n">SharedPtr</span><span class="w"> </span><span class="n">p</span><span class="p">;</span>
+<span class="w">        </span><span class="n">rclcpp</span><span class="o">::</span><span class="n">Publisher</span><span class="o">&lt;</span><span class="n">geometry_msgs</span><span class="o">::</span><span class="n">msg</span><span class="o">::</span><span class="n">PoseStamped</span><span class="o">&gt;::</span><span class="n">SharedPtr</span><span class="w"> </span><span class="n">move_pose_pub_</span><span class="p">;</span>
+<span class="p">};</span>
+</code></pre></div>
+
+<p><strong>move.cpp</strong></p>
+<div class="highlight"><pre><span></span><code><span class="cp">#include</span><span class="w"> </span><span class="cpf">&quot;move.hpp&quot;</span>
+
+<span class="n">Move2Place</span><span class="o">::</span><span class="n">Move2Place</span><span class="p">()</span><span class="o">:</span><span class="n">Node</span><span class="p">(</span><span class="s">&quot;goal_publisher&quot;</span><span class="p">){</span>
+<span class="w">    </span><span class="n">move_pose_pub_</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="k">this</span><span class="o">-&gt;</span><span class="n">create_publisher</span><span class="o">&lt;</span><span class="n">geometry_msgs</span><span class="o">::</span><span class="n">msg</span><span class="o">::</span><span class="n">PoseStamped</span><span class="o">&gt;</span><span class="p">(</span><span class="s">&quot;goal_pose&quot;</span><span class="p">,</span><span class="w"> </span><span class="mi">10</span><span class="p">);</span>
+<span class="w">    </span><span class="n">timer_</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="k">this</span><span class="o">-&gt;</span><span class="n">create_wall_timer</span><span class="p">(</span><span class="n">std</span><span class="o">::</span><span class="n">chrono</span><span class="o">::</span><span class="n">seconds</span><span class="p">(</span><span class="mi">5</span><span class="p">),</span><span class="w"> </span><span class="n">std</span><span class="o">::</span><span class="n">bind</span><span class="p">(</span><span class="o">&amp;</span><span class="n">Move2Place</span><span class="o">::</span><span class="n">move2place</span><span class="p">,</span><span class="w"> </span><span class="k">this</span><span class="p">));</span>
+
+<span class="p">}</span>
+<span class="kt">void</span><span class="w"> </span><span class="n">Move2Place</span><span class="o">::</span><span class="n">move2place</span><span class="p">(){</span>
+<span class="w">    </span><span class="n">timer_</span><span class="o">-&gt;</span><span class="n">cancel</span><span class="p">();</span>
+<span class="w">    </span><span class="n">p</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="n">std</span><span class="o">::</span><span class="n">make_shared</span><span class="o">&lt;</span><span class="n">geometry_msgs</span><span class="o">::</span><span class="n">msg</span><span class="o">::</span><span class="n">PoseStamped</span><span class="o">&gt;</span><span class="p">();</span>
+<span class="w">    </span><span class="k">auto</span><span class="w"> </span><span class="n">msg</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="n">geometry_msgs</span><span class="o">::</span><span class="n">msg</span><span class="o">::</span><span class="n">PoseStamped</span><span class="p">();</span>
+<span class="w">    </span><span class="n">get_pose</span><span class="p">();</span>
+<span class="w">    </span><span class="k">if</span><span class="w"> </span><span class="p">(</span><span class="n">p</span><span class="w"> </span><span class="o">!=</span><span class="w"> </span><span class="nb">nullptr</span><span class="p">)</span>
+<span class="w">    </span><span class="p">{</span>
+<span class="w">        </span><span class="n">msg</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="o">*</span><span class="n">p</span><span class="p">;</span><span class="w">  </span><span class="c1">// 拷贝 p 指向的数据到 msg</span>
+<span class="w">        </span><span class="n">RCLCPP_INFO</span><span class="p">(</span><span class="k">this</span><span class="o">-&gt;</span><span class="n">get_logger</span><span class="p">(),</span><span class="w"> </span><span class="s">&quot;成功发布目标位置&quot;</span><span class="p">);</span>
+<span class="w">    </span><span class="p">}</span>
+<span class="w">    </span><span class="k">else</span>
+<span class="w">    </span><span class="p">{</span>
+<span class="w">        </span><span class="c1">// p 为空时的默认值</span>
+<span class="w">        </span><span class="n">msg</span><span class="p">.</span><span class="n">pose</span><span class="p">.</span><span class="n">position</span><span class="p">.</span><span class="n">x</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="mf">0.0</span><span class="p">;</span>
+<span class="w">        </span><span class="n">msg</span><span class="p">.</span><span class="n">pose</span><span class="p">.</span><span class="n">position</span><span class="p">.</span><span class="n">y</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="mf">0.0</span><span class="p">;</span>
+<span class="w">        </span><span class="n">msg</span><span class="p">.</span><span class="n">pose</span><span class="p">.</span><span class="n">position</span><span class="p">.</span><span class="n">z</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="mf">0.0</span><span class="p">;</span>
+<span class="w">        </span><span class="n">msg</span><span class="p">.</span><span class="n">pose</span><span class="p">.</span><span class="n">orientation</span><span class="p">.</span><span class="n">w</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="mf">1.0</span><span class="p">;</span>
+<span class="w">    </span><span class="p">}</span>
+
+<span class="w">    </span><span class="n">move_pose_pub_</span><span class="o">-&gt;</span><span class="n">publish</span><span class="p">(</span><span class="n">msg</span><span class="p">);</span>
+
+<span class="p">}</span>
+
+<span class="kt">void</span><span class="w"> </span><span class="n">Move2Place</span><span class="o">::</span><span class="n">get_pose</span><span class="p">(){</span>
+<span class="w">    </span><span class="n">p</span><span class="o">-&gt;</span><span class="n">header</span><span class="p">.</span><span class="n">stamp</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="k">this</span><span class="o">-&gt;</span><span class="n">now</span><span class="p">();</span>
+<span class="w">    </span><span class="n">p</span><span class="o">-&gt;</span><span class="n">header</span><span class="p">.</span><span class="n">frame_id</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="s">&quot;map&quot;</span><span class="p">;</span>
+
+<span class="w">    </span><span class="n">p</span><span class="o">-&gt;</span><span class="n">pose</span><span class="p">.</span><span class="n">position</span><span class="p">.</span><span class="n">x</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="mf">-1.0</span><span class="p">;</span>
+<span class="w">    </span><span class="n">p</span><span class="o">-&gt;</span><span class="n">pose</span><span class="p">.</span><span class="n">position</span><span class="p">.</span><span class="n">y</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="mf">-2.0</span><span class="p">;</span>
+<span class="w">    </span><span class="n">p</span><span class="o">-&gt;</span><span class="n">pose</span><span class="p">.</span><span class="n">position</span><span class="p">.</span><span class="n">z</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="mf">0.0</span><span class="p">;</span>
+
+<span class="w">    </span><span class="n">p</span><span class="o">-&gt;</span><span class="n">pose</span><span class="p">.</span><span class="n">orientation</span><span class="p">.</span><span class="n">w</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="mf">1.0</span><span class="p">;</span>
+<span class="w">    </span><span class="n">p</span><span class="o">-&gt;</span><span class="n">pose</span><span class="p">.</span><span class="n">orientation</span><span class="p">.</span><span class="n">x</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="mf">0.0</span><span class="p">;</span>
+<span class="w">    </span><span class="n">p</span><span class="o">-&gt;</span><span class="n">pose</span><span class="p">.</span><span class="n">orientation</span><span class="p">.</span><span class="n">y</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="mf">0.0</span><span class="p">;</span>
+<span class="w">    </span><span class="n">p</span><span class="o">-&gt;</span><span class="n">pose</span><span class="p">.</span><span class="n">orientation</span><span class="p">.</span><span class="n">z</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="mf">0.0</span><span class="p">;</span>
+
+<span class="p">}</span>
+</code></pre></div>
+
+<p><strong>main.cpp</strong></p>
+<div class="highlight"><pre><span></span><code><span class="cp">#include</span><span class="w"> </span><span class="cpf">&quot;initial.hpp&quot;</span>
+<span class="cp">#include</span><span class="w"> </span><span class="cpf">&quot;move.hpp&quot;</span>
+
+<span class="kt">int</span><span class="w"> </span><span class="nf">main</span><span class="p">(</span><span class="kt">int</span><span class="w"> </span><span class="n">argc</span><span class="p">,</span><span class="w"> </span><span class="kt">char</span><span class="w"> </span><span class="o">**</span><span class="w"> </span><span class="n">argv</span><span class="p">){</span>
+<span class="w">    </span><span class="n">rclcpp</span><span class="o">::</span><span class="n">init</span><span class="p">(</span><span class="n">argc</span><span class="p">,</span><span class="w"> </span><span class="n">argv</span><span class="p">);</span>
+
+<span class="w">    </span><span class="k">auto</span><span class="w"> </span><span class="n">initial_node</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="n">std</span><span class="o">::</span><span class="n">make_shared</span><span class="o">&lt;</span><span class="n">Initial</span><span class="o">&gt;</span><span class="p">();</span>
+<span class="w">    </span><span class="k">auto</span><span class="w"> </span><span class="n">move_node</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="n">std</span><span class="o">::</span><span class="n">make_shared</span><span class="o">&lt;</span><span class="n">Move2Place</span><span class="o">&gt;</span><span class="p">();</span>
+
+<span class="w">    </span><span class="n">rclcpp</span><span class="o">::</span><span class="n">ExecutorOptions</span><span class="w"> </span><span class="n">options</span><span class="p">;</span>
+<span class="w">    </span><span class="n">rclcpp</span><span class="o">::</span><span class="n">executors</span><span class="o">::</span><span class="n">SingleThreadedExecutor</span><span class="w"> </span><span class="n">executor</span><span class="p">(</span><span class="n">options</span><span class="p">);</span>
+<span class="w">    </span><span class="n">executor</span><span class="p">.</span><span class="n">add_node</span><span class="p">(</span><span class="n">initial_node</span><span class="p">);</span>
+<span class="w">    </span><span class="n">executor</span><span class="p">.</span><span class="n">add_node</span><span class="p">(</span><span class="n">move_node</span><span class="p">);</span>
+<span class="w">    </span><span class="n">executor</span><span class="p">.</span><span class="n">spin</span><span class="p">();</span>
+
+<span class="w">    </span><span class="n">rclcpp</span><span class="o">::</span><span class="n">shutdown</span><span class="p">();</span>
+<span class="w">    </span><span class="k">return</span><span class="w"> </span><span class="mi">0</span><span class="p">;</span>
+<span class="p">}</span>
+</code></pre></div>
+
+<h4 id="243">2.4.3. 关键设计点<a class="headerlink" href="#243" title="Permanent link">&para;</a></h4>
+<ol>
+<li><strong>消息类型选择</strong></li>
+<li><strong>初始位姿</strong>: 使用 <code>PoseWithCovarianceStamped</code>，包含协方差信息，表示位姿的不确定性</li>
+<li>
+<p><strong>目标位姿</strong>: 使用 <code>PoseStamped</code>，不需要不确定性信息</p>
+</li>
+<li>
+<p><strong>定时器设计</strong></p>
+</li>
+<li>初始位姿：1 秒延迟，给系统足够时间启动</li>
+<li>
+<p>目标位姿：5 秒延迟，让机器人有时间完成初始定位</p>
+</li>
+<li>
+<p><strong>话题名称</strong></p>
+</li>
+<li>初始位姿:<code>/initialpose</code>(标准 Nav2 话题)</li>
+<li>
+<p>目标位姿:<code>/goal_pose</code>(自定义话题名称)</p>
+</li>
+<li>
+<p><strong>坐标系</strong></p>
+</li>
+<li>所有位姿都使用"map"坐标系</li>
+<li>符合 Nav2 的标准要求</li>
+</ol>
+<h3 id="25">2.5.参数配置<a class="headerlink" href="#25" title="Permanent link">&para;</a></h3>
+<p><a href="https://hitwhlc.yuque.com/attachments/yuque/0/2026/yaml/61267216/1769149011301-16517f8e-8ef6-4891-961f-fabbb618e73e.yaml">📎nav2_params.yaml</a></p>
+<p>nav2 的初始参数配置，在目录<code>/opt/ros/humble/share/nav2_bringup/params</code>下</p>
+<h4 id="251amcl">2.5.1.amcl 定位模块相关参数<a class="headerlink" href="#251amcl" title="Permanent link">&para;</a></h4>
+<ul>
+<li><code>**use_sim_time: True**</code>: 仿真环境必开。<strong>实机调试必须改为</strong> <code>**False**</code>。</li>
+<li>
+<p><code>**alpha1**</code> <strong>~</strong> <code>**alpha4**</code> <strong>(0.2)</strong>: <strong>[关键调试项]</strong> 里程计运动噪声模型。</p>
+</li>
+<li>
+<p>如果你的机器人轮子打滑严重或里程计很飘，需要<strong>调大</strong>这些值（告诉算法"我不信任里程计"）。</p>
+</li>
+<li><code>alpha1</code>: 旋转引起的旋转噪声。</li>
+<li><code>alpha2</code>: 平移引起的旋转噪声。</li>
+<li><code>alpha3</code>: 平移引起的平移噪声。</li>
+<li>
+<p><code>alpha4</code>: 旋转引起的平移噪声。</p>
+</li>
+<li>
+<p><code>**min_particles**</code> <strong>(500) /</strong> <code>**max_particles**</code> <strong>(2000)</strong>: <strong>[性能平衡项]</strong> 粒子数量。</p>
+</li>
+<li>
+<p>粒子越多，定位越准，但 CPU 占用越高。</p>
+</li>
+<li>
+<p><code>**scan_topic**</code>: 激光雷达的话题名，需与实际话题一致。</p>
+</li>
+<li><code>**robot_model_type**</code>: <code>"nav2_amcl::DifferentialMotionModel"</code> (差速) 或 <code>"omni"</code> (全向)。</li>
+<li><code>**z_hit**</code> <strong>(0.5) /</strong> <code>**z_rand**</code> <strong>(0.5)</strong>: 传感器模型参数。</li>
+<li>
+<p><code>**update_min_d**</code> <strong>(0.25) /</strong> <code>**update_min_a**</code> <strong>(0.2)</strong>: 触发定位更新的阈值。</p>
+</li>
+<li>
+<p>机器人移动 0.25 米 或 旋转 0.2弧度 更新一次粒子。调小可以提高更新频率，但增加计算量。</p>
+</li>
+</ul>
+<h4 id="252bt_navigator">2.5.2.bt_navigator 行为树导航相关参数<a class="headerlink" href="#252bt_navigator" title="Permanent link">&para;</a></h4>
+<ul>
+<li><code>**bt_loop_duration**</code> <strong>(10)</strong>: 行为树 tick 的间隔（毫秒）。10ms = 100Hz。</li>
+<li><code>**default_server_timeout**</code>: 等待 Action Server（如规划器、控制器）响应的超时时间。</li>
+<li><code>**plugin_lib_names**</code>: 这里列出了一大堆插件，实际上就是告诉 Nav2 有哪些行为树节点可用</li>
+</ul>
+<h4 id="253controller_server">2.5.3.controller_server 控制服务器相关参数<a class="headerlink" href="#253controller_server" title="Permanent link">&para;</a></h4>
+<p>它接收全局路径，计算具体的速度指令 (<code>cmd_vel</code>) 发送给底盘。这里使用的是 <strong>DWB Local Planner</strong>。</p>
+<ul>
+<li><code>**controller_frequency**</code> <strong>(20.0)</strong>: 控制频率。20Hz 意味着每秒发送 20 次速度指令。</li>
+<li><code>**FollowPath**</code> <strong>(DWB 参数)</strong>:</li>
+<li>
+<p><strong>速度限制 [绝对核心]</strong>:</p>
+</li>
+<li>
+<p><code>min_vel_x</code> / <code>max_vel_x</code>: 前进速度范围。</p>
+</li>
+<li><code>min_vel_y</code> / <code>max_vel_y</code>: 差速车设为 0；全向车需设置。</li>
+<li>
+<p><code>max_vel_theta</code>: 最大旋转角速度。</p>
+</li>
+<li>
+<p><strong>加速度限制 [绝对核心]</strong>:</p>
+</li>
+<li>
+<p><code>acc_lim_x</code>, <code>acc_lim_theta</code>: <strong>必须根据电机和底盘的实际物理能力设置</strong>。设太大会导致规划出的速度机器跑不到，导致控制滞后；设太小机器人反应迟钝。</p>
+</li>
+<li>
+<p><code>**sim_time**</code> <strong>(1.7)</strong>: <strong>[关键调试项]</strong> 前向模拟时间。</p>
+</li>
+<li>
+<p>机器人"预测"未来 1.7 秒的运动轨迹来避障。</p>
+</li>
+<li>
+<p><strong>调试技巧</strong>：如果机器人经常撞到动态障碍物或反应慢，<strong>减小</strong>此值；如果机器人在此宽阔场地不敢走高速，<strong>增大</strong>此值。</p>
+</li>
+<li>
+<p><code>**vx_samples**</code> <strong>(20) /</strong> <code>**vtheta_samples**</code> <strong>(20)</strong>: 采样密度。数值越高规划越精细，但由 CPU 决定上限。</p>
+</li>
+</ul>
+<h4 id="254local_costmap">2.5.4.local_costmap 局部代价地图相关参数<a class="headerlink" href="#254local_costmap" title="Permanent link">&para;</a></h4>
+<ul>
+<li><code>**update_frequency**</code> <strong>(5.0)</strong>: 地图更新频率。如果雷达是 10Hz，这里设 5-10Hz 比较合适。</li>
+<li><code>**rolling_window: true**</code>: 必须为 true，表示地图随机器人移动。</li>
+<li><code>**width**</code> <strong>(3) /</strong> <code>**height**</code> <strong>(3)</strong>: <strong>[关键调试项]</strong> 局部地图大小（米）。</li>
+<li><code>**resolution**</code> <strong>(0.05)</strong>: 地图分辨率，5cm 一个格子。</li>
+<li>
+<p><code>**inflation_layer**</code> <strong>(膨胀层)</strong>: <strong>[最容易出问题的部分]</strong></p>
+</li>
+<li>
+<p><code>inflation_radius</code> (0.55): 障碍物膨胀半径。<strong>必须大于机器人半径</strong>，否则机器人会认为它可以贴着墙走，导致擦碰。</p>
+</li>
+<li>
+<p><code>cost_scaling_factor</code> (3.0): 代价衰减因子。</p>
+</li>
+<li>
+<p>值越大，膨胀层代价衰减越快（允许离障碍物近一点）。</p>
+</li>
+<li>
+<p>值越小，膨胀层越"平缓"，机器人会倾向于远离障碍物行走（走在路中间）。</p>
+</li>
+<li>
+<p><code>**voxel_layer**</code> <strong>(体素层)</strong>: 处理 3D 障碍物或 2D 雷达数据。</p>
+</li>
+<li>
+<p><code>observation_sources: scan</code>: 数据源。</p>
+</li>
+<li><code>raytrace_max_range</code>: 清除障碍物的最大距离。</li>
+<li><code>obstacle_max_range</code>: 标记障碍物的最大距离。</li>
+</ul>
+<h4 id="255global_costmap">2.5.5.global_costmap 全局代价地图相关参数<a class="headerlink" href="#255global_costmap" title="Permanent link">&para;</a></h4>
+<ul>
+<li><code>**update_frequency**</code> <strong>(1.0)</strong>: 更新频率可以低一点，因为静态地图基本不变。</li>
+<li><code>**robot_radius**</code> <strong>(0.22)</strong>: 机器人的物理半径（圆形底盘）。如果是方形底盘，需改用 <code>footprint</code> 参数，格式为 <code>[[x1, y1], [x2, y2], ...]</code>。</li>
+<li>
+<p><code>**plugins**</code>:</p>
+</li>
+<li>
+<p><code>static_layer</code>: 加载 <code>map_server</code> 提供的静态地图。</p>
+</li>
+<li><code>obstacle_layer</code>: 实时雷达数据（用于规划时避开新出现的障碍物）。</li>
+<li><code>inflation_layer</code>: 同局部地图，用于让规划出的路径与墙壁保持距离。</li>
+</ul>
+<h4 id="256planner-server">2.5.6.planner server 全局规划器相关参数<a class="headerlink" href="#256planner-server" title="Permanent link">&para;</a></h4>
+<ul>
+<li><code>**planner_plugins: ["GridBased"]**</code>: 使用 NavFn 规划器（类似 ROS1 的 global_planner）。</li>
+<li>
+<p><code>**use_astar**</code> <strong>(false)</strong>:</p>
+</li>
+<li>
+<p><code>false</code>: 使用 Dijkstra 算法（保证最短路径，计算量稍大，适合栅格地图）。</p>
+</li>
+<li>
+<p><code>true</code>: 使用 A* 算法（速度快，不仅看距离还看启发函数）。</p>
+</li>
+<li>
+<p><code>**tolerance**</code> <strong>(0.5)</strong>: 如果目标点被占据（例如在墙里），允许规划到距离目标点 0.5 米内的最近空闲点。</p>
+</li>
+</ul>
+<h4 id="257behavior_server">2.5.7.behavior_server 恢复行为相关参数<a class="headerlink" href="#257behavior_server" title="Permanent link">&para;</a></h4>
+<ul>
+<li><code>**costmap_topic**</code>: 用于检测碰撞的地图。</li>
+<li><code>**spin**</code> <strong>/</strong> <code>**backup**</code> <strong>/</strong> <code>**wait**</code>:</li>
+<li>这些插件定义了具体的恢复动作。</li>
+<li><code>**simulate_ahead_time**</code> <strong>(2.0)</strong>: 在执行恢复动作（如后退）时，预测未来 2 秒是否会撞到东西。</li>
+</ul>
+<h4 id="258velocity_smoother">2.5.8.velocity_smoother 速度平滑器相关参数<a class="headerlink" href="#258velocity_smoother" title="Permanent link">&para;</a></h4>
+<ul>
+<li><code>**smoothing_frequency**</code> <strong>(20.0)</strong>: 平滑处理频率。</li>
+<li>
+<p><code>**feedback: "OPEN_LOOP"**</code>:</p>
+</li>
+<li>
+<p><code>OPEN_LOOP</code>: 基于上一次发送的命令进行平滑（假设底盘完美执行）。</p>
+</li>
+<li>
+<p><code>CLOSED_LOOP</code>: 基于里程计反馈的实际速度进行平滑（更安全，但如果里程计滞后会引起振荡）。</p>
+</li>
+<li>
+<p><code>**max_accel**</code> <strong>/</strong> <code>**max_decel**</code>:</p>
+</li>
+<li>
+<p><strong>重要调试</strong>：这里的加减速限制应该比 <code>Controller Server</code> 里的限制<strong>更严格或相等</strong>。它是最后一道防线，保证输出给底盘的指令平滑。</p>
+</li>
+<li>
+<p><code>**deadband_velocity**</code>: 死区速度。消除微小的噪音指令。</p>
+</li>
+</ul>
+
+
+
+
+
+
+
+
+
+
+
+
+                
+              </article>
+            </div>
+          
+          
+<script>var target=document.getElementById(location.hash.slice(1));target&&target.name&&(target.checked=target.name.startsWith("__tabbed_"))</script>
+        </div>
+        
+      </main>
+      
+        <footer class="md-footer">
+  
+  <div class="md-footer-meta md-typeset">
+    <div class="md-footer-meta__inner md-grid">
+      <div class="md-copyright">
+  
+    <div class="md-copyright__highlight">
+      &copy; 2026 epepepelephant. All rights reserved.
+    </div>
+  
+  
+    Made with
+    <a href="https://squidfunk.github.io/mkdocs-material/" target="_blank" rel="noopener">
+      Material for MkDocs
+    </a>
+  
+</div>
+      
+        
+<div class="md-social">
+  
+    
+    
+    
+    
+      
+      
+    
+    <a href="https://github.com/epepepelephant" target="_blank" rel="noopener" title="github.com" class="md-social__link">
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><!--! Font Awesome Free 7.1.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2025 Fonticons, Inc.--><path d="M173.9 397.4c0 2-2.3 3.6-5.2 3.6-3.3.3-5.6-1.3-5.6-3.6 0-2 2.3-3.6 5.2-3.6 3-.3 5.6 1.3 5.6 3.6m-31.1-4.5c-.7 2 1.3 4.3 4.3 4.9 2.6 1 5.6 0 6.2-2s-1.3-4.3-4.3-5.2c-2.6-.7-5.5.3-6.2 2.3m44.2-1.7c-2.9.7-4.9 2.6-4.6 4.9.3 2 2.9 3.3 5.9 2.6 2.9-.7 4.9-2.6 4.6-4.6-.3-1.9-3-3.2-5.9-2.9M252.8 8C114.1 8 8 113.3 8 252c0 110.9 69.8 205.8 169.5 239.2 12.8 2.3 17.3-5.6 17.3-12.1 0-6.2-.3-40.4-.3-61.4 0 0-70 15-84.7-29.8 0 0-11.4-29.1-27.8-36.6 0 0-22.9-15.7 1.6-15.4 0 0 24.9 2 38.6 25.8 21.9 38.6 58.6 27.5 72.9 20.9 2.3-16 8.8-27.1 16-33.7-55.9-6.2-112.3-14.3-112.3-110.5 0-27.5 7.6-41.3 23.6-58.9-2.6-6.5-11.1-33.3 2.6-67.9 20.9-6.5 69 27 69 27 20-5.6 41.5-8.5 62.8-8.5s42.8 2.9 62.8 8.5c0 0 48.1-33.6 69-27 13.7 34.7 5.2 61.4 2.6 67.9 16 17.7 25.8 31.5 25.8 58.9 0 96.5-58.9 104.2-114.8 110.5 9.2 7.9 17 22.9 17 46.4 0 33.7-.3 75.4-.3 83.6 0 6.5 4.6 14.4 17.3 12.1C436.2 457.8 504 362.9 504 252 504 113.3 391.5 8 252.8 8M105.2 352.9c-1.3 1-1 3.3.7 5.2 1.6 1.6 3.9 2.3 5.2 1 1.3-1 1-3.3-.7-5.2-1.6-1.6-3.9-2.3-5.2-1m-10.8-8.1c-.7 1.3.3 2.9 2.3 3.9 1.6 1 3.6.7 4.3-.7.7-1.3-.3-2.9-2.3-3.9-2-.6-3.6-.3-4.3.7m32.4 35.6c-1.6 1.3-1 4.3 1.3 6.2 2.3 2.3 5.2 2.6 6.5 1 1.3-1.3.7-4.3-1.3-6.2-2.2-2.3-5.2-2.6-6.5-1m-11.4-14.7c-1.6 1-1.6 3.6 0 5.9s4.3 3.3 5.6 2.3c1.6-1.3 1.6-3.9 0-6.2-1.4-2.3-4-3.3-5.6-2"/></svg>
+    </a>
+  
+</div>
+      
+    </div>
+  </div>
+</footer>
+      
+    </div>
+    <div class="md-dialog" data-md-component="dialog">
+      <div class="md-dialog__inner md-typeset"></div>
+    </div>
+    
+    
+    
+      
+      
+      <script id="__config" type="application/json">{"annotate": null, "base": "../..", "features": ["navigation.tabs", "navigation.tabs.sticky", "navigation.sections", "search.highlight", "search.suggest"], "search": "../../assets/javascripts/workers/search.2c215733.min.js", "tags": null, "translations": {"clipboard.copied": "\u5df2\u590d\u5236", "clipboard.copy": "\u590d\u5236", "search.result.more.one": "\u5728\u8be5\u9875\u4e0a\u8fd8\u6709 1 \u4e2a\u7b26\u5408\u6761\u4ef6\u7684\u7ed3\u679c", "search.result.more.other": "\u5728\u8be5\u9875\u4e0a\u8fd8\u6709 # \u4e2a\u7b26\u5408\u6761\u4ef6\u7684\u7ed3\u679c", "search.result.none": "\u6ca1\u6709\u627e\u5230\u7b26\u5408\u6761\u4ef6\u7684\u7ed3\u679c", "search.result.one": "\u627e\u5230 1 \u4e2a\u7b26\u5408\u6761\u4ef6\u7684\u7ed3\u679c", "search.result.other": "# \u4e2a\u7b26\u5408\u6761\u4ef6\u7684\u7ed3\u679c", "search.result.placeholder": "\u952e\u5165\u4ee5\u5f00\u59cb\u641c\u7d22", "search.result.term.missing": "\u7f3a\u5c11", "select.version": "\u9009\u62e9\u5f53\u524d\u7248\u672c"}, "version": null}</script>
+    
+    
+      <script src="../../assets/javascripts/bundle.79ae519e.min.js"></script>
+      
+        <script src="../../javascripts/favicon.js"></script>
+      
+        <script src="../../javascripts/katex/katex.min.js"></script>
+      
+        <script src="../../javascripts/katex/auto-render.min.js"></script>
+      
+        <script src="../../javascripts/katex-render.js"></script>
+      
+    
+  </body>
+</html>

@@ -12,23 +12,29 @@
         <meta name="author" content="epepepelephant">
       
       
+        <link rel="canonical" href="https://epepepe.top/%E5%AF%BC%E8%88%AA%E4%B8%8E%E5%AE%9A%E4%BD%8D/%E5%AF%B9SLAM%E5%92%8CTF%E7%9A%84%E7%90%86%E8%A7%A3/">
       
+      
+        <link rel="prev" href="../..">
+      
+      
+        <link rel="next" href="../MPC/">
       
       
         
       
       
-      <link rel="icon" href="/assets/images/favicon.png">
+      <link rel="icon" href="../../assets/images/favicon.png">
       <meta name="generator" content="mkdocs-1.6.1, mkdocs-material-9.7.6">
     
     
-<title> EP's Blog</title>
+<title>对SLAM和TF的理解 EP's Blog</title>
 
     
-      <link rel="stylesheet" href="/assets/stylesheets/main.484c7ddc.min.css">
+      <link rel="stylesheet" href="../../assets/stylesheets/main.484c7ddc.min.css">
       
         
-        <link rel="stylesheet" href="/assets/stylesheets/palette.ab4e12ef.min.css">
+        <link rel="stylesheet" href="../../assets/stylesheets/palette.ab4e12ef.min.css">
       
       
 
@@ -50,11 +56,11 @@
       
     
     
-      <link rel="stylesheet" href="/stylesheets/custom.css">
+      <link rel="stylesheet" href="../../stylesheets/custom.css">
     
-      <link rel="stylesheet" href="/javascripts/katex/katex.min.css">
+      <link rel="stylesheet" href="../../javascripts/katex/katex.min.css">
     
-    <script>__md_scope=new URL("/",location),__md_hash=e=>[...e].reduce(((e,_)=>(e<<5)-e+_.charCodeAt(0)),0),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
+    <script>__md_scope=new URL("../..",location),__md_hash=e=>[...e].reduce(((e,_)=>(e<<5)-e+_.charCodeAt(0)),0),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
     
       
 
@@ -78,6 +84,11 @@
     <label class="md-overlay" for="__drawer"></label>
     <div data-md-component="skip">
       
+        
+        <a href="#1tf" class="md-skip">
+          跳转至
+        </a>
+      
     </div>
     <div data-md-component="announce">
       
@@ -90,9 +101,9 @@
 
 <header class="md-header md-header--shadow md-header--lifted" data-md-component="header">
   <nav class="md-header__inner md-grid" aria-label="页眉">
-    <a href="/." title="EP&#39;s Blog" class="md-header__button md-logo" aria-label="EP's Blog" data-md-component="logo">
+    <a href="../.." title="EP&#39;s Blog" class="md-header__button md-logo" aria-label="EP's Blog" data-md-component="logo">
       
-  <img src="/assets/images/favicon.ico" alt="logo">
+  <img src="../../assets/images/favicon.ico" alt="logo">
 
     </a>
     <label class="md-header__button md-icon" for="__drawer">
@@ -109,7 +120,7 @@
         <div class="md-header__topic" data-md-component="header-topic">
           <span class="md-ellipsis">
             
-              
+              对SLAM和TF的理解
             
           </span>
         </div>
@@ -202,7 +213,7 @@
   
   
     <li class="md-tabs__item">
-      <a href="/." class="md-tabs__link">
+      <a href="../.." class="md-tabs__link">
         
   
   
@@ -219,11 +230,13 @@
   
   
   
+    
+  
   
     
     
-      <li class="md-tabs__item">
-        <a href="/%E5%AF%BC%E8%88%AA%E4%B8%8E%E5%AE%9A%E4%BD%8D/%E5%AF%B9SLAM%E5%92%8CTF%E7%9A%84%E7%90%86%E8%A7%A3/" class="md-tabs__link">
+      <li class="md-tabs__item md-tabs__item--active">
+        <a href="./" class="md-tabs__link">
           
   
   
@@ -243,7 +256,7 @@
     
     
       <li class="md-tabs__item">
-        <a href="/ai/%E7%A5%9E%E7%BB%8F%E7%BD%91%E7%BB%9C/" class="md-tabs__link">
+        <a href="../../ai/%E7%A5%9E%E7%BB%8F%E7%BD%91%E7%BB%9C/" class="md-tabs__link">
           
   
   
@@ -283,9 +296,9 @@
 
 <nav class="md-nav md-nav--primary md-nav--lifted" aria-label="导航栏" data-md-level="0">
   <label class="md-nav__title" for="__drawer">
-    <a href="/." title="EP&#39;s Blog" class="md-nav__button md-logo" aria-label="EP's Blog" data-md-component="logo">
+    <a href="../.." title="EP&#39;s Blog" class="md-nav__button md-logo" aria-label="EP's Blog" data-md-component="logo">
       
-  <img src="/assets/images/favicon.ico" alt="logo">
+  <img src="../../assets/images/favicon.ico" alt="logo">
 
     </a>
     EP's Blog
@@ -312,7 +325,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/." class="md-nav__link">
+      <a href="../.." class="md-nav__link">
         
   
   
@@ -336,26 +349,31 @@
       
   
   
+    
   
   
+  
     
     
     
     
+      
+        
+        
       
       
         
       
     
     
-    <li class="md-nav__item md-nav__item--nested">
+    <li class="md-nav__item md-nav__item--active md-nav__item--section md-nav__item--nested">
       
         
         
-        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_2" >
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_2" checked>
         
           
-          <label class="md-nav__link" for="__nav_2" id="__nav_2_label" tabindex="0">
+          <label class="md-nav__link" for="__nav_2" id="__nav_2_label" tabindex="">
             
   
   
@@ -373,7 +391,7 @@
             <span class="md-nav__icon md-icon"></span>
           </label>
         
-        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_2_label" aria-expanded="false">
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_2_label" aria-expanded="true">
           <label class="md-nav__title" for="__nav_2">
             <span class="md-nav__icon md-icon"></span>
             
@@ -388,10 +406,35 @@
                 
   
   
+    
   
   
-    <li class="md-nav__item">
-      <a href="/%E5%AF%BC%E8%88%AA%E4%B8%8E%E5%AE%9A%E4%BD%8D/%E5%AF%B9SLAM%E5%92%8CTF%E7%9A%84%E7%90%86%E8%A7%A3/" class="md-nav__link">
+  
+    <li class="md-nav__item md-nav__item--active">
+      
+      <input class="md-nav__toggle md-toggle" type="checkbox" id="__toc">
+      
+      
+      
+        <label class="md-nav__link md-nav__link--active" for="__toc">
+          
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    对SLAM和TF的理解
+  
+
+    
+  </span>
+  
+  
+
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <a href="./" class="md-nav__link md-nav__link--active">
         
   
   
@@ -407,6 +450,85 @@
   
 
       </a>
+      
+        
+
+<nav class="md-nav md-nav--secondary" aria-label="目录">
+  
+  
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      目录
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#1tf" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        1.TF
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#2slam" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        2.SLAM
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="2.SLAM">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#21map-odom" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        2.1.map→ odom
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#22odom-base_link" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        2.2.odom→ base_link
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#23base_link-sensor_link" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        2.3.base_link→ sensor_link
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+      
     </li>
   
 
@@ -419,7 +541,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/%E5%AF%BC%E8%88%AA%E4%B8%8E%E5%AE%9A%E4%BD%8D/MPC/" class="md-nav__link">
+      <a href="../MPC/" class="md-nav__link">
         
   
   
@@ -447,7 +569,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/%E5%AF%BC%E8%88%AA%E4%B8%8E%E5%AE%9A%E4%BD%8D/Navigation2/" class="md-nav__link">
+      <a href="../Navigation2/" class="md-nav__link">
         
   
   
@@ -534,7 +656,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/ai/%E7%A5%9E%E7%BB%8F%E7%BD%91%E7%BB%9C/" class="md-nav__link">
+      <a href="../../ai/%E7%A5%9E%E7%BB%8F%E7%BD%91%E7%BB%9C/" class="md-nav__link">
         
   
   
@@ -562,7 +684,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/ai/CNN/" class="md-nav__link">
+      <a href="../../ai/CNN/" class="md-nav__link">
         
   
   
@@ -590,7 +712,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/ai/RNN/" class="md-nav__link">
+      <a href="../../ai/RNN/" class="md-nav__link">
         
   
   
@@ -618,7 +740,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/ai/Pytorch/" class="md-nav__link">
+      <a href="../../ai/Pytorch/" class="md-nav__link">
         
   
   
@@ -646,7 +768,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/ai/%E7%9B%AE%E6%A0%87%E6%A3%80%E6%B5%8B%E7%9A%84%E5%8F%91%E5%B1%95%E5%8F%B2/" class="md-nav__link">
+      <a href="../../ai/%E7%9B%AE%E6%A0%87%E6%A3%80%E6%B5%8B%E7%9A%84%E5%8F%91%E5%B1%95%E5%8F%B2/" class="md-nav__link">
         
   
   
@@ -692,6 +814,75 @@
   
   
   
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      目录
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#1tf" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        1.TF
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#2slam" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        2.SLAM
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="2.SLAM">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#21map-odom" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        2.1.map→ odom
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#22odom-base_link" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        2.2.odom→ base_link
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#23base_link-sensor_link" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        2.3.base_link→ sensor_link
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+    </ul>
+  
 </nav>
                   </div>
                 </div>
@@ -703,8 +894,107 @@
               
               <article class="md-content__inner md-typeset">
                 
-  <h1>404 - Not found</h1>
+                  
 
+
+  
+  
+
+
+  <h1>对SLAM和TF的理解</h1>
+
+<h2 id="1tf">1.TF<a class="headerlink" href="#1tf" title="Permanent link">&para;</a></h2>
+<ul>
+<li>TF即transform，对于机器人来讲，TF树是机器人获取空间位置关系的重要系统</li>
+<li>TF树的本质是一个<strong>带有时间戳的、动态的坐标系关系网络</strong>，它确保了机器人系统中每一个部件（车身、传感器）以及机器人与环境（地图）之间的相对位置和朝向关系是清晰、一致且可追溯的。</li>
+</ul>
+<h2 id="2slam">2.SLAM<a class="headerlink" href="#2slam" title="Permanent link">&para;</a></h2>
+<ul>
+<li>一个标准的SLAM TF树结构遵循 <code>map</code>→ <code>odom</code>→ <code>base_link</code>→ <code>sensor_link</code>的链条<ul>
+<li>map  即世界地图坐标系  是通过初始位姿来设置的（可以是手动，也可以是定位算法），是一个固定的坐标系</li>
+<li>odom 即里程计坐标系  由里程计节点发布，这个节点是map节点的映射，是小车在运动后，认为自己出发点所在的位置</li>
+<li>base_link 即底盘中心</li>
+<li>sesor_link 即传感器安装的坐标系</li>
+</ul>
+</li>
+</ul>
+<h3 id="21map-odom">2.1.<code>map</code>→ <code>odom</code><a class="headerlink" href="#21map-odom" title="Permanent link">&para;</a></h3>
+<ul>
+<li>
+<p>这部分TF变换主要由定位算法（比如说amcl，slam_toolbox，gicp等）来发布，用来修正odom的误差，这种是低频的</p>
+<ul>
+<li>定位算法的原理本质上就是根据传感器的数据，算出来机器人在地图上的实际位置，然后反推<code>map</code>→ <code>odom</code>的误差，最后广播TF变换来修正误差</li>
+<li>每一种定位算法算机器人的绝对位置的方法都很不一样<ul>
+<li>amcl就是根据广撒点，根据概率来算出绝对位置</li>
+<li>slam_toolbox基于图优化，简单来讲就是选取机器人经过的几个点作为观测点，并分析观测点周围的数据来分析当前的位置</li>
+<li>GICP基于点云匹配，立志于让点云数据和地图数据完全一致，然后分析绝对位置</li>
+</ul>
+</li>
+</ul>
+</li>
+<li>
+<p>广播：就是通过前面的定位算法，来发布TF消息就可以</p>
+</li>
+</ul>
+<div class="highlight"><pre><span></span><code><span class="kt">void</span><span class="w"> </span><span class="nf">SlamToolbox::publishTransformLoop</span><span class="p">(</span>
+<span class="w">  </span><span class="k">const</span><span class="w"> </span><span class="kt">double</span><span class="w"> </span><span class="o">&amp;</span><span class="w"> </span><span class="n">transform_publish_period</span><span class="p">)</span>
+<span class="cm">/*****************************************************************************/</span>
+<span class="p">{</span>
+<span class="w">  </span><span class="k">if</span><span class="w"> </span><span class="p">(</span><span class="n">transform_publish_period</span><span class="w"> </span><span class="o">==</span><span class="w"> </span><span class="mi">0</span><span class="p">)</span><span class="w"> </span><span class="p">{</span>
+<span class="w">    </span><span class="k">return</span><span class="p">;</span>
+<span class="w">  </span><span class="p">}</span>
+
+<span class="w">  </span><span class="n">rclcpp</span><span class="o">::</span><span class="n">Rate</span><span class="w"> </span><span class="n">r</span><span class="p">(</span><span class="mf">1.0</span><span class="w"> </span><span class="o">/</span><span class="w"> </span><span class="n">transform_publish_period</span><span class="p">);</span>
+<span class="w">  </span><span class="k">while</span><span class="w"> </span><span class="p">(</span><span class="n">rclcpp</span><span class="o">::</span><span class="n">ok</span><span class="p">())</span><span class="w"> </span><span class="p">{</span>
+<span class="w">    </span><span class="n">boost</span><span class="o">::</span><span class="n">this_thread</span><span class="o">::</span><span class="n">interruption_point</span><span class="p">();</span>
+<span class="w">    </span><span class="p">{</span>
+<span class="w">      </span><span class="n">boost</span><span class="o">::</span><span class="n">mutex</span><span class="o">::</span><span class="n">scoped_lock</span><span class="w"> </span><span class="n">lock</span><span class="p">(</span><span class="n">map_to_odom_mutex_</span><span class="p">);</span>
+<span class="w">      </span><span class="n">rclcpp</span><span class="o">::</span><span class="n">Time</span><span class="w"> </span><span class="n">scan_timestamp</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="n">scan_header</span><span class="p">.</span><span class="n">stamp</span><span class="p">;</span>
+<span class="w">      </span><span class="c1">// Avoid publishing tf with initial 0.0 scan timestamp</span>
+<span class="w">      </span><span class="k">if</span><span class="w"> </span><span class="p">(</span><span class="n">scan_timestamp</span><span class="p">.</span><span class="n">seconds</span><span class="p">()</span><span class="w"> </span><span class="o">&gt;</span><span class="w"> </span><span class="mf">0.0</span><span class="w"> </span><span class="o">&amp;&amp;</span><span class="w"> </span><span class="o">!</span><span class="n">scan_header</span><span class="p">.</span><span class="n">frame_id</span><span class="p">.</span><span class="n">empty</span><span class="p">())</span><span class="w"> </span><span class="p">{</span>
+<span class="w">        </span><span class="n">geometry_msgs</span><span class="o">::</span><span class="n">msg</span><span class="o">::</span><span class="n">TransformStamped</span><span class="w"> </span><span class="n">msg</span><span class="p">;</span>
+<span class="w">        </span><span class="n">msg</span><span class="p">.</span><span class="n">transform</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="n">tf2</span><span class="o">::</span><span class="n">toMsg</span><span class="p">(</span><span class="n">map_to_odom_</span><span class="p">);</span>
+<span class="w">        </span><span class="n">msg</span><span class="p">.</span><span class="n">child_frame_id</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="n">odom_frame_</span><span class="p">;</span>
+<span class="w">        </span><span class="n">msg</span><span class="p">.</span><span class="n">header</span><span class="p">.</span><span class="n">frame_id</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="n">map_frame_</span><span class="p">;</span>
+<span class="w">        </span><span class="k">if</span><span class="w"> </span><span class="p">(</span><span class="n">restamp_tf_</span><span class="p">)</span><span class="w"> </span><span class="p">{</span>
+<span class="w">          </span><span class="n">msg</span><span class="p">.</span><span class="n">header</span><span class="p">.</span><span class="n">stamp</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="n">now</span><span class="p">()</span><span class="w"> </span><span class="o">+</span><span class="w"> </span><span class="n">transform_timeout_</span><span class="p">;</span>
+<span class="w">        </span><span class="p">}</span><span class="w"> </span><span class="k">else</span><span class="w"> </span><span class="p">{</span>
+<span class="w">          </span><span class="n">msg</span><span class="p">.</span><span class="n">header</span><span class="p">.</span><span class="n">stamp</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="n">scan_timestamp</span><span class="w"> </span><span class="o">+</span><span class="w"> </span><span class="n">transform_timeout_</span><span class="p">;</span>
+<span class="w">        </span><span class="p">}</span>
+<span class="w">        </span><span class="n">tfB_</span><span class="o">-&gt;</span><span class="n">sendTransform</span><span class="p">(</span><span class="n">msg</span><span class="p">);</span>
+<span class="w">      </span><span class="p">}</span>
+<span class="w">    </span><span class="p">}</span>
+<span class="w">    </span><span class="n">r</span><span class="p">.</span><span class="n">sleep</span><span class="p">();</span>
+<span class="w">  </span><span class="p">}</span>
+<span class="p">}</span>
+</code></pre></div>
+
+<h3 id="22odom-base_link">2.2.<code>odom</code>→ <code>base_link</code><a class="headerlink" href="#22odom-base_link" title="Permanent link">&para;</a></h3>
+<ul>
+<li>这部分TF变化由<code>robot_localizition</code>或者是里程计源来高频发布，用来计算机器人相对于自认为的起点行走的距离<ul>
+<li>如果直接由里程计源来发布，那就是直接就是积分编码器的数据来算出小车现在行走的距离，但是里程计打滑会造成误差</li>
+<li>如果通过<code>robot_localizition</code>来发布，就可以结合里程计直走很准和imu对于yaw角敏感的特点，把数据用协方差合理的揉在一起</li>
+</ul>
+</li>
+</ul>
+<h3 id="23base_link-sensor_link">2.3.<code>base_link</code>→ <code>sensor_link</code><a class="headerlink" href="#23base_link-sensor_link" title="Permanent link">&para;</a></h3>
+<ul>
+<li>这部分是固定的，就是机器人各个传感器到底盘的距离</li>
+<li>通常根据URDF或者TF广播直接设置</li>
+</ul>
+
+
+
+
+
+
+
+
+
+
+
+
+                
               </article>
             </div>
           
@@ -761,18 +1051,18 @@
     
       
       
-      <script id="__config" type="application/json">{"annotate": null, "base": "/", "features": ["navigation.tabs", "navigation.tabs.sticky", "navigation.sections", "search.highlight", "search.suggest"], "search": "/assets/javascripts/workers/search.2c215733.min.js", "tags": null, "translations": {"clipboard.copied": "\u5df2\u590d\u5236", "clipboard.copy": "\u590d\u5236", "search.result.more.one": "\u5728\u8be5\u9875\u4e0a\u8fd8\u6709 1 \u4e2a\u7b26\u5408\u6761\u4ef6\u7684\u7ed3\u679c", "search.result.more.other": "\u5728\u8be5\u9875\u4e0a\u8fd8\u6709 # \u4e2a\u7b26\u5408\u6761\u4ef6\u7684\u7ed3\u679c", "search.result.none": "\u6ca1\u6709\u627e\u5230\u7b26\u5408\u6761\u4ef6\u7684\u7ed3\u679c", "search.result.one": "\u627e\u5230 1 \u4e2a\u7b26\u5408\u6761\u4ef6\u7684\u7ed3\u679c", "search.result.other": "# \u4e2a\u7b26\u5408\u6761\u4ef6\u7684\u7ed3\u679c", "search.result.placeholder": "\u952e\u5165\u4ee5\u5f00\u59cb\u641c\u7d22", "search.result.term.missing": "\u7f3a\u5c11", "select.version": "\u9009\u62e9\u5f53\u524d\u7248\u672c"}, "version": null}</script>
+      <script id="__config" type="application/json">{"annotate": null, "base": "../..", "features": ["navigation.tabs", "navigation.tabs.sticky", "navigation.sections", "search.highlight", "search.suggest"], "search": "../../assets/javascripts/workers/search.2c215733.min.js", "tags": null, "translations": {"clipboard.copied": "\u5df2\u590d\u5236", "clipboard.copy": "\u590d\u5236", "search.result.more.one": "\u5728\u8be5\u9875\u4e0a\u8fd8\u6709 1 \u4e2a\u7b26\u5408\u6761\u4ef6\u7684\u7ed3\u679c", "search.result.more.other": "\u5728\u8be5\u9875\u4e0a\u8fd8\u6709 # \u4e2a\u7b26\u5408\u6761\u4ef6\u7684\u7ed3\u679c", "search.result.none": "\u6ca1\u6709\u627e\u5230\u7b26\u5408\u6761\u4ef6\u7684\u7ed3\u679c", "search.result.one": "\u627e\u5230 1 \u4e2a\u7b26\u5408\u6761\u4ef6\u7684\u7ed3\u679c", "search.result.other": "# \u4e2a\u7b26\u5408\u6761\u4ef6\u7684\u7ed3\u679c", "search.result.placeholder": "\u952e\u5165\u4ee5\u5f00\u59cb\u641c\u7d22", "search.result.term.missing": "\u7f3a\u5c11", "select.version": "\u9009\u62e9\u5f53\u524d\u7248\u672c"}, "version": null}</script>
     
     
-      <script src="/assets/javascripts/bundle.79ae519e.min.js"></script>
+      <script src="../../assets/javascripts/bundle.79ae519e.min.js"></script>
       
-        <script src="/javascripts/favicon.js"></script>
+        <script src="../../javascripts/favicon.js"></script>
       
-        <script src="/javascripts/katex/katex.min.js"></script>
+        <script src="../../javascripts/katex/katex.min.js"></script>
       
-        <script src="/javascripts/katex/auto-render.min.js"></script>
+        <script src="../../javascripts/katex/auto-render.min.js"></script>
       
-        <script src="/javascripts/katex-render.js"></script>
+        <script src="../../javascripts/katex-render.js"></script>
       
     
   </body>
