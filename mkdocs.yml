@@ -68,6 +68,10 @@ extra_javascript:
 
 nav:
   - Home: index.md
+  - 导航与定位:
+    - 对SLAM和TF的理解: 导航与定位/对SLAM和TF的理解.md
+    - MPC: 导航与定位/MPC.md
+    - Navigation2: 导航与定位/Navigation2.md
   - AI:
     - 神经网络: ai/神经网络.md
     - CNN: ai/CNN.md
